@@ -120,4 +120,4 @@ display_comment_time=0.0
 
 # Model
 
-max_num_model=3
+max_num_model=10
