@@ -87,7 +87,7 @@ campus_color=0.0,0.0,0.2
 
 # OpenGL
 
-max_multi_sampling=4
+max_multi_sampling=100
 
 # Motion
 
@@ -120,4 +120,4 @@ display_comment_time=0.0
 
 # Model
 
-max_num_model=10
+max_num_model=100

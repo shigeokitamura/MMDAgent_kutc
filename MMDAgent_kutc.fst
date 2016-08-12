@@ -411,29 +411,50 @@
 304	305	RECOG_EVENT_STOP|文科	SYNTH_START|mei|mei_voice_normal|文化系サークルはこちらです
 304	306	KEY|2	SYNTH_START|mei|mei_voice_normal|体育系サークルはこちらです
 304	306	RECOG_EVENT_STOP|体育	SYNTH_START|mei|mei_voice_normal|体育系サークルはこちらです
-305	307	<eps>	MODEL_DELETE|panel2	
-306	308	<eps>	MODEL_DELETE|panel1		MODEL_DELETE|panel1
+305	307	<eps>	MODEL_DELETE|panel2
+307	308	MODEL_EVENT_DELETE|panel2	MODEL_ADD|panel2|Accessory\circle\bunka_list.pmd|7.0,6.0,2.5|0.0,0.0,0.0|ON|mei
+306	309	<eps>	MODEL_DELETE|panel1
 
 # サークル名
-308	331	RECOG_EVENT_STOP|ティービーシー	SYNTH_START|mei|mei_voice_normal|てぃーびーしーは高槻のバトミントンサークルです。毎週四回の練習を行っています。部員数は200人に及ぶ巨大サークルです。年間イベントも多数あります、長期休暇の遠方への旅行などもあり、サークル内の絆がとても深いです。
-308	331	RECOG_EVENT_STOP|ティーエルティーシー	SYNTH_START|mei|mei_voice_normal|てぃーえるてぃーしーは高槻のテニスサークルです。テニスコートですいようびとどようびにみんなで練習を行っています。かようびときんようびにはコート開放で、各自で自由に練習を行うこともできます。
-308	331	RECOG_EVENT_STOP|ティーエスシー	SYNTH_START|mei|mei_voice_normal|てぃーえすしーはサッカーサークルです。毎週すいようびに授業が終わったあと、練習をしています。大会や合宿にも参加しています。サッカーを楽しみたい人や本気で取り組みたい人、どちらも楽しめるサークルです。
-308	331	RECOG_EVENT_STOP|ソレイユ	SYNTH_START|mei|mei_voice_normal|ソレイユは、ソフトテニスサークルです。すいようときんようの週二回あつまって練習をしています。経験者も初心者も、どちらも楽しんで活動をしています。年間イベントも多数行われています。
-307	331	RECOG_EVENT_STOP|ボカリーズ	SYNTH_START|mei|mei_voice_normal|ボカリーズはアカペラサークルです。毎週きんようびにテラスで集まって、みんなで歌の練習をしたりしています。新歓ライブ、クリスマスライブなど、イベントも多数です。高槻祭だけでなく統一祭などでも活躍しています。
-307	331	RECOG_EVENT_STOP|よろずえまき	SYNTH_START|mei|mei_voice_normal|劇団よろずえまきは演劇サークルです。とてもアクティブなサークルで、年6回の公演に向けて日々楽しく活動しています。役者だけではなく、ポスター、小道具、服などを作りたい人がスタッフとして仕事をしたり、みんなが得意分野を演劇で生かして活動しています。
-307	331	RECOG_EVENT_STOP|そうさくけんきゅうかい	SYNTH_START|mei|mei_voice_normal|創作研究会はイラストや漫画、音楽や小説の創作活動をしています。会報として作品をサークルで発表しあうだけではなく。コミックマーケットやコミックトレジャーで、みんなの作品を外部の方に知ってもらうための活動もしています。
-307	331	RECOG_EVENT_STOP|がくさい	                 SYNTH_START|mei|mei_voice_normal|総合情報学部祭典実行委員会略して情祭では、高槻キャンパス祭、統一祭での管理、運営をしています。毎年みんなに楽しんでもらうために、一体感を大事にして重大な役目をおっています。サークルとしての合宿やイベントも多数あります。
-308	331	RECOG_EVENT_STOP|ジャンキース	SYNTH_START|mei|mei_voice_normal|ジャンジーズは、毎週水曜日に他チームとの練習試合を行なったり、春夏秋冬に一回ずつの試合に向けて日々練習をしているアクティブな硬式野球サークルです。夏や年末にみんなで親睦を深めるための楽しいイベントもあります。
-307	331	RECOG_EVENT_STOP|じょうさい	                 SYNTH_START|mei|mei_voice_normal|総合情報学部祭典実行委員会略して情祭では、高槻キャンパス祭、統一祭での管理、運営をしています。毎年みんなに楽しんでもらうために、一体感を大事にして重大な役目をおっています。サークルとしての合宿やイベントも多数あります。
-307	331	RECOG_EVENT_STOP|KTB	SYNTH_START|mei|mei_voice_normal|KTBは放送局です。番組放送や映像制作をおこなっています。
-307	331	RECOG_EVENT_STOP|MCS	SYNTH_START|mei|mei_voice_normal|MCSは映像系のボランティア団体です。
-307	331	RECOG_EVENT_STOP|SJM	SYNTH_START|mei|mei_voice_normal|SJMは映像制作団体です。
-307	331	RECOG_EVENT_STOP|banditz	SYNTH_START|mei|mei_voice_normal|バンディッツは軽音楽サークルです。月に一回ほど定期ライブをおこなっています。
-307	331	RECOG_EVENT_STOP|GCCC	SYNTH_START|mei|mei_voice_normal|GCCCはゲーム制作サークルです。プログラミング、グラフィック、作曲などの講習をおこない、ゲームを制作しています。
+308	331	RECOG_EVENT_STOP|ボカリーズ	SYNTH_START|mei|mei_voice_normal|ボカリーズはアカペラサークルです。毎週きんようびにテラスで集まって、みんなで歌の練習をしたりしています。新歓ライブ、クリスマスライブなど、イベントも多数です。高槻祭だけでなく統一祭などでも活躍しています。
+308	331	RECOG_EVENT_STOP|よろずえまき	SYNTH_START|mei|mei_voice_normal|劇団よろずえまきは演劇サークルです。とてもアクティブなサークルで、年6回の公演に向けて日々楽しく活動しています。役者だけではなく、ポスター、小道具、服などを作りたい人がスタッフとして仕事をしたり、みんなが得意分野を演劇で生かして活動しています。
+308	331	RECOG_EVENT_STOP|そうさくけんきゅうかい	SYNTH_START|mei|mei_voice_normal|創作研究会はイラストや漫画、音楽や小説の創作活動をしています。会報として作品をサークルで発表しあうだけではなく。コミックマーケットやコミックトレジャーで、みんなの作品を外部の方に知ってもらうための活動もしています。
+308	331	RECOG_EVENT_STOP|がくさい	                 SYNTH_START|mei|mei_voice_normal|総合情報学部祭典実行委員会略して情祭では、高槻キャンパス祭、統一祭での管理、運営をしています。毎年みんなに楽しんでもらうために、一体感を大事にして重大な役目をおっています。サークルとしての合宿やイベントも多数あります。
+308	331	RECOG_EVENT_STOP|じょうさい	                 SYNTH_START|mei|mei_voice_normal|総合情報学部祭典実行委員会略して情祭では、高槻キャンパス祭、統一祭での管理、運営をしています。毎年みんなに楽しんでもらうために、一体感を大事にして重大な役目をおっています。サークルとしての合宿やイベントも多数あります。
+308	331	RECOG_EVENT_STOP|KTB	SYNTH_START|mei|mei_voice_normal|KTBは放送局です。番組放送や映像制作をおこなっています。
+308	331	RECOG_EVENT_STOP|MCS	SYNTH_START|mei|mei_voice_normal|MCSは映像系のボランティア団体です。
+308	331	RECOG_EVENT_STOP|SJM	SYNTH_START|mei|mei_voice_normal|SJMは映像制作団体です。
+308	331	RECOG_EVENT_STOP|banditz	SYNTH_START|mei|mei_voice_normal|バンディッツは軽音楽サークルです。月に一回ほど定期ライブをおこなっています。
+308	331	RECOG_EVENT_STOP|GCCC	SYNTH_START|mei|mei_voice_normal|GCCCはゲーム制作サークルです。プログラミング、グラフィック、作曲などの講習をおこない、ゲームを制作しています。
+309	331	RECOG_EVENT_STOP|ティービーシー	SYNTH_START|mei|mei_voice_normal|てぃーびーしーは高槻のバトミントンサークルです。毎週四回の練習を行っています。部員数は200人に及ぶ巨大サークルです。年間イベントも多数あります、長期休暇の遠方への旅行などもあり、サークル内の絆がとても深いです。
+309	331	RECOG_EVENT_STOP|ティーエルティーシー	SYNTH_START|mei|mei_voice_normal|てぃーえるてぃーしーは高槻のテニスサークルです。テニスコートですいようびとどようびにみんなで練習を行っています。かようびときんようびにはコート開放で、各自で自由に練習を行うこともできます。
+309	331	RECOG_EVENT_STOP|ティーエスシー	SYNTH_START|mei|mei_voice_normal|てぃーえすしーはサッカーサークルです。毎週すいようびに授業が終わったあと、練習をしています。大会や合宿にも参加しています。サッカーを楽しみたい人や本気で取り組みたい人、どちらも楽しめるサークルです。
+309	331	RECOG_EVENT_STOP|ソレイユ	SYNTH_START|mei|mei_voice_normal|ソレイユは、ソフトテニスサークルです。すいようときんようの週二回あつまって練習をしています。経験者も初心者も、どちらも楽しんで活動をしています。年間イベントも多数行われています。
+309	331	RECOG_EVENT_STOP|ジャンキース	SYNTH_START|mei|mei_voice_normal|ジャンジーズは、毎週水曜日に他チームとの練習試合を行なったり、春夏秋冬に一回ずつの試合に向けて日々練習をしているアクティブな硬式野球サークルです。夏や年末にみんなで親睦を深めるための楽しいイベントもあります。
+
+308	331	KEY|1	SYNTH_START|mei|mei_voice_normal|ボカリーズはアカペラサークルです。毎週きんようびにテラスで集まって、みんなで歌の練習をしたりしています。新歓ライブ、クリスマスライブなど、イベントも多数です。高槻祭だけでなく統一祭などでも活躍しています。
+308	331	KEY|2	SYNTH_START|mei|mei_voice_normal|劇団よろずえまきは演劇サークルです。とてもアクティブなサークルで、年6回の公演に向けて日々楽しく活動しています。役者だけではなく、ポスター、小道具、服などを作りたい人がスタッフとして仕事をしたり、みんなが得意分野を演劇で生かして活動しています。
+308	331	KEY|3	SYNTH_START|mei|mei_voice_normal|創作研究会はイラストや漫画、音楽や小説の創作活動をしています。会報として作品をサークルで発表しあうだけではなく。コミックマーケットやコミックトレジャーで、みんなの作品を外部の方に知ってもらうための活動もしています。
+308	331	KEY|4	SYNTH_START|mei|mei_voice_normal|総合情報学部祭典実行委員会略して情祭では、高槻キャンパス祭、統一祭での管理、運営をしています。毎年みんなに楽しんでもらうために、一体感を大事にして重大な役目をおっています。サークルとしての合宿やイベントも多数あります。
+308	331	KEY|5	SYNTH_START|mei|mei_voice_normal|総合情報学部祭典実行委員会略して情祭では、高槻キャンパス祭、統一祭での管理、運営をしています。毎年みんなに楽しんでもらうために、一体感を大事にして重大な役目をおっています。サークルとしての合宿やイベントも多数あります。
+308	331	KEY|6	SYNTH_START|mei|mei_voice_normal|KTBは放送局です。番組放送や映像制作をおこなっています。
+308	331	KEY|7	SYNTH_START|mei|mei_voice_normal|MCSは映像系のボランティア団体です。
+308	331	KEY|8	SYNTH_START|mei|mei_voice_normal|SJMは映像制作団体です。
+308	331	KEY|9	SYNTH_START|mei|mei_voice_normal|バンディッツは軽音楽サークルです。月に一回ほど定期ライブをおこなっています。
+308	331	KEY|0	SYNTH_START|mei|mei_voice_normal|GCCCはゲーム制作サークルです。プログラミング、グラフィック、作曲などの講習をおこない、ゲームを制作しています。
+309	331	KEY|1	SYNTH_START|mei|mei_voice_normal|てぃーびーしーは高槻のバトミントンサークルです。毎週四回の練習を行っています。部員数は200人に及ぶ巨大サークルです。年間イベントも多数あります、長期休暇の遠方への旅行などもあり、サークル内の絆がとても深いです。
+309	331	KEY|2	SYNTH_START|mei|mei_voice_normal|てぃーえるてぃーしーは高槻のテニスサークルです。テニスコートですいようびとどようびにみんなで練習を行っています。かようびときんようびにはコート開放で、各自で自由に練習を行うこともできます。
+309	331	KEY|3	SYNTH_START|mei|mei_voice_normal|てぃーえすしーはサッカーサークルです。毎週すいようびに授業が終わったあと、練習をしています。大会や合宿にも参加しています。サッカーを楽しみたい人や本気で取り組みたい人、どちらも楽しめるサークルです。
+309	331	KEY|4	SYNTH_START|mei|mei_voice_normal|ソレイユは、ソフトテニスサークルです。すいようときんようの週二回あつまって練習をしています。経験者も初心者も、どちらも楽しんで活動をしています。年間イベントも多数行われています。
+309	331	KEY|5	SYNTH_START|mei|mei_voice_normal|ジャンジーズは、毎週水曜日に他チームとの練習試合を行なったり、春夏秋冬に一回ずつの試合に向けて日々練習をしているアクティブな硬式野球サークルです。夏や年末にみんなで親睦を深めるための楽しいイベントもあります。
+
 
 #end
-331	332	<eps>	MOTION_ADD|mei|action|Motion\mei_bye\mei_bye.vmd|PART|ONCE
-332	2	SYNTH_EVENT_STOP|mei	<eps>
+331	332	SYNTH_EVENT_STOP|mei	MOTION_ADD|mei|action|Motion\mei_bye\mei_bye.vmd|PART|ONCE
+332	333	<eps>	MODEL_DELETE|panel1
+333 	334	<eps>	MODEL_DELETE|panel2
+334	335	<eps>	MODEL_ADD|menu|Accessory\menu\menu.pmd|0.0,-4.5,0.0|0.0,0.0,0.0|ON|mei
+335	2	<eps>	MOTION_ADD|menu|rotate|Motion\menu_rotation\menu_rotation.vmd|FULL|LOOP|OFF|OFF
 
 # Variation
 1	331	RECOG_EVENT_STOP|創作	SYNTH_START|mei|mei_voice_normal|創作研究会はイラストや漫画、音楽や小説の創作活動をしています。会報として作品をサークルで発表しあうだけではなく。コミックマーケットやコミックトレジャーで、みんなの作品を外部の方に知ってもらうための活動もしています。
