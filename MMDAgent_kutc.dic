@@ -1,23 +1,26 @@
-﻿ソフトウェア:ソフトウェア:ソフトウェア:507	@0.0	ＭＭＤＡｇｅｎｔ:エムエムディーエージェント:ＭＭＤＡｇｅｎｔ	[ＭＭＤＡｇｅｎｔ]	e m u e m u d i: e: j e N t
+ソフトウェア:ソフトウェア:ソフトウェア:507	@0.0	ＭＭＤＡｇｅｎｔ:エムエムディーエージェント:ＭＭＤＡｇｅｎｔ	[ＭＭＤＡｇｅｎｔ]	e m u e m u d i: e: j e N t
 アプリケーション:アプリケーション:アプリケーション:507	@0.0	ＭＭＤＡｇｅｎｔ:エムエムディーエージェント:ＭＭＤＡｇｅｎｔ	[ＭＭＤＡｇｅｎｔ]	e m u e m u d i: e: j e N t
 画面:ガメン:画面:507	@0.0	フルスクリーン:フルスクリーン:フルスクリーン	[フルスクリーン]	f u r u s u k u r i: N
 
 <unk>	@0.0	<unk>	[サークル]	s a: k u r u
 <unk>	@0.0	<unk>	[文化]	b u N k a
 <unk>	@0.0	<unk>	[体育]	t a i i k u
+<unk>	@0.0	<unk>	[体育]	t a i: k u
 <unk>	@0.0	<unk>	[GCCC]	j i: sh i: sh i: sh i:
-<unk>	@0.0	<unk>	[banditz]	b a n d i
-<unk>	@0.0	<unk>	[banditz]	b a n r i
+<unk>	@0.0	<unk>	[banditz]	b a n d i q ts u
 <unk>	@0.0	<unk>	[あいりす]	a i r i s u
 <unk>	@0.0	<unk>	[じょうさい]	j o u s a i
+<unk>	@0.0	<unk>	[じょうさい]	j o: s a i
 <unk>	@0.0	<unk>	[KTB]	k e: t i: b i:
 <unk>	@0.0	<unk>	[MCS]	e m u sh i: e s u
 <unk>	@0.0	<unk>	[SJM]	e s u j e: e m u
 <unk>	@0.0	<unk>	[そうさくけんきゅうかい]	s o u s a k u k e N k y u u k a i
+<unk>	@0.0	<unk>	[そうさくけんきゅうかい]	s o: s a k u k e N k y u: k a i
 <unk>	@0.0	<unk>	[ボカリーズ]	b o k a r i: z u
 <unk>	@0.0	<unk>	[よろずえまき]	y o r o z u e m a k i
 
 <unk>	@0.0	<unk>	[合気道]	a i k i d o u
+<unk>	@0.0	<unk>	[合気道]	a i k i d o:
 <unk>	@0.0	<unk>	[ボラボラ]	b o r a b o r a
 <unk>	@0.0	<unk>	[ダブル]	d a b u r u
 <unk>	@0.0	<unk>	[馬術部]	b a j u ts u b u
@@ -37,11 +40,16 @@
 <unk>	@0.0	<unk>	[軽音]	k e i o N
 <unk>	@0.0	<unk>	[ゲーム]	g e: m u
 <unk>	@0.0	<unk>	[放送局]	h o u s o u ky o k u
+<unk>	@0.0	<unk>	[放送局]	h o: s o: ky o k u
 <unk>	@0.0	<unk>	[音声]	o N s e i
+<unk>	@0.0	<unk>	[音声]	o N s e:
 <unk>	@0.0	<unk>	[映像]	e i z o u
+<unk>	@0.0	<unk>	[映像]	e i z o:
 <unk>	@0.0	<unk>	[ボランティア]	b o r a N t i a
 <unk>	@0.0	<unk>	[映像制作]	e i z o u s e i s a k u
+<unk>	@0.0	<unk>	[映像制作]	e i z o: s e: s a k u
 <unk>	@0.0	<unk>	[創作]	s o u s a k u
+<unk>	@0.0	<unk>	[創作]	s o: s a k u
 <unk>	@0.0	<unk>	[イラスト]	i r a s u t o
 <unk>	@0.0	<unk>	[漫画]	m a N g a
 <unk>	@0.0	<unk>	[アカペラ]	a k a p e r a
@@ -49,7 +57,8 @@
 <unk>	@0.0	<unk>	[演劇]	e N g e k i
 
 <unk>	@0.0	<unk>	[野球]	y a ky u u
-<unk>	@0.0	<unk>	[サッカー] s a p k a:
+<unk>	@0.0	<unk>	[野球]	y a ky u:
+<unk>	@0.0	<unk>	[サッカー]	s a p k a:
 <unk>	@0.0	<unk>	[テニス]	t e n i s u
 <unk>	@0.0	<unk>	[ソフトテニス]	s o f u t o t e n i s u
 <unk>	@0.0	<unk>	[バスケ]	b a s u k e
@@ -64,8 +73,10 @@
 <unk>	@0.0	<unk>	[3つの系]	m i p ts u n o k e i
 <unk>	@0.0	<unk>	[文系]	b u N k e i
 <unk>	@0.0	<unk>	[奨学金]	sh o u g a k u k i N
+<unk>	@0.0	<unk>	[奨学金]	sh o: g a k u k i N
 <unk>	@0.0	<unk>	[学費]	g a k u h i
 <unk>	@0.0	<unk>	[住所]	j u u sh o
+<unk>	@0.0	<unk>	[住所]	j u: sh o
 <unk>	@0.0	<unk>	[マップ]	m a p p u
 
 <unk>	@0.0	<unk>	[キャンパス]	k y a N p a s u
@@ -74,15 +85,21 @@
 <unk>	@0.0	<unk>	[A棟]	e: t o u
 <unk>	@0.0	<unk>	[管理]	k a N r i
 <unk>	@0.0	<unk>	[研究棟]	k e N ky u u t o u
+<unk>	@0.0	<unk>	[研究棟]	k e N ky u: t o:
 <unk>	@0.0	<unk>	[オフィス]	o f i s u
-<unk>	@0.0	<unk>	[キャンパスオフィス]  k y a N p a s u o f i s u
-<unk>	@0.0	<unk>	[B棟] b i: t o u
+<unk>	@0.0	<unk>	[キャンパスオフィス]	k y a N p a s u o f i s u
+<unk>	@0.0	<unk>	[B棟]	b i: t o u
+<unk>	@0.0	<unk>	[B棟]	b i: t o:
 <unk>	@0.0	<unk>	[図書館]	t o sh o k a N
 <unk>	@0.0	<unk>	[教室棟]	ky o u sh i ts u t o u
+<unk>	@0.0	<unk>	[教室棟]	ky o: sh i ts u t o:
 <unk>	@0.0	<unk>	[C棟]	sh i: t o u
 <unk>	@0.0	<unk>	[スタジオ棟]	s u t a z i o t o u
+<unk>	@0.0	<unk>	[スタジオ棟]	s u t a z i o t o:
 <unk>	@0.0	<unk>	[D棟]	d i: t o u
+<unk>	@0.0	<unk>	[D棟]	d i: t o:
 <unk>	@0.0	<unk>	[大学院棟]	d a i g a k u i N t o u
+<unk>	@0.0	<unk>	[大学院棟]	d a i g a k u i N t o:
 <unk>	@0.0	<unk>	[E棟]	i: t o u
 <unk>	@0.0	<unk>	[教室棟]	ky o u sh i ts u t o u
 <unk>	@0.0	<unk>	[F棟]	e f u t o u
