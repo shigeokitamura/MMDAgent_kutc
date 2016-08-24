@@ -637,6 +637,6 @@
 461	2	SYNTH_EVENT_STOP|mei	<eps>
 
 # 0500-0599 裏コマンド
-1	500	RECOG_EVENT_STOP|ミク,いい	MODEL_CHANGE|mei|Model\miku\miku.pmd
+1	500	RECOG_EVENT_STOP|初音ミク	MODEL_CHANGE|mei|Model\miku\miku.pmd
 500	501	<eps>	SYNTH_START|mei|mei_voice_normal|初音ミクと申します。よろしくお願いします。
 501	2	SYNTH_EVENT_STOP|mei	<eps>
