@@ -146,7 +146,7 @@
 11	12	MODEL_EVENT_ADD|bootscreen	MODEL_ADD|mei|Model\mei\mei.pmd|0.0,0.0,-14.0
 12	13	<eps>	MODEL_ADD|menu|Accessory\menu\menu.pmd|0.0,-4.5,0.0|0.0,0.0,0.0|ON|mei
 13	14	<eps>	MOTION_ADD|menu|rotate|Motion\menu_rotation\menu_rotation.vmd|FULL|LOOP|OFF|OFF
-14	15	<eps>	STAGE|Stage\building2\floor.bmp,Stage\building2\background.bmp
+14	15	<eps>	STAGE|Stage\buildingA\stage.pmd
 15	16	<eps>	MOTION_ADD|mei|base|Motion\mei_wait\mei_wait.vmd|FULL|LOOP|ON|OFF
 16	17	<eps>	TIMER_START|bootscreen|1.5
 17	2	TIMER_EVENT_STOP|bootscreen	MODEL_DELETE|bootscreen
@@ -397,11 +397,11 @@
 301	302	SYNTH_EVENT_STOP|mei	MODEL_DELETE|menu
 302	303	<eps>	MODEL_ADD|panel1|Accessory\circle\bunka.pmd|-7.0,5.0,2.5|0.0,0.0,0.0|ON|mei
 303	304	MODEL_EVENT_ADD|panel1	MODEL_ADD|panel2|Accessory\circle\taiiku.pmd|7.0,5.0,2.5|0.0,0.0,0.0|ON|mei
-304	305	KEY|1	SYNTH_START|mei|mei_voice_normal|文化系サークルには、バンディッツ、GCCC、アイリス、じょうさい、KTB、MCS、SJM、創作研究会、ボカリーズ、よろずえまきがあります。
-304	305	RECOG_EVENT_STOP|文化	SYNTH_START|mei|mei_voice_normal|文化系サークルには、バンディッツ、GCCC、アイリス、じょうさい、KTB、MCS、SJM、創作研究会、ボカリーズ、よろずえまきがあります。
-304	305	RECOG_EVENT_STOP|文科	SYNTH_START|mei|mei_voice_normal|文化系サークルには、バンディッツ、GCCC、アイリス、じょうさい、KTB、MCS、SJM、創作研究会、ボカリーズ、よろずえまきがあります。
-304	306	KEY|2	SYNTH_START|mei|mei_voice_normal|体育系サークル、部活には、そうじょうあいき、ぼらぼら、だぶる、体育会馬術部、じゃんじーず、じゃんきーす、体育会アイススケート部、ソレイユ、TBC、TLTC、TSCがあります。
-304	306	RECOG_EVENT_STOP|体育	SYNTH_START|mei|mei_voice_normal|体育系サークル、部活には、そうじょうあいき、ぼらぼら、だぶる、体育会馬術部、じゃんじーず、じゃんきーす、体育会アイススケート部、ソレイユ、TBC、TLTC、TSCがあります。
+304	305	KEY|1	SYNTH_START|mei|mei_voice_normal|文化系サークルはこちらです。
+304	305	RECOG_EVENT_STOP|文化	SYNTH_START|mei|mei_voice_normal|文化系サークルはこちらです。
+304	305	RECOG_EVENT_STOP|文科	SYNTH_START|mei|mei_voice_normal|文化系サークルはこちらです。
+304	306	KEY|2	SYNTH_START|mei|mei_voice_normal|体育系サークル、部活はこちらです。
+304	306	RECOG_EVENT_STOP|体育	SYNTH_START|mei|mei_voice_normal|体育系サークル、部活はこちらです。
 305	307	<eps>	MODEL_DELETE|panel2
 307	308	MODEL_EVENT_DELETE|panel2	MODEL_ADD|panel2|Accessory\circle\bunka_list.pmd|7.0,5.0,2.5|0.0,0.0,0.0|ON|mei
 306	309	<eps>	MODEL_DELETE|panel1
@@ -549,10 +549,34 @@
 396	397	RECOG_EVENT_STOP|いいえ	<eps>
 
 #end
-397	398	<eps>	MOTION_ADD|mei|action|Motion\mei_bye\mei_bye.vmd|PART|ONCE
-398	399	<eps>	MODEL_ADD|menu|Accessory\menu\menu.pmd|0.0,-4.5,0.0|0.0,0.0,0.0|ON|mei
-400	2	<eps>	MOTION_ADD|menu|rotate|Motion\menu_rotation\menu_rotation.vmd|FULL|LOOP|OFF|OFF
+397	398	<eps>	MODEL_ADD|menu|Accessory\menu\menu.pmd|0.0,-4.5,0.0|0.0,0.0,0.0|ON|mei
+398	399	<eps>	MOTION_ADD|mei|action|Motion\mei_bye\mei_bye.vmd|PART|ONCE
+#399	400	<eps>	MOTION_CHANGE|mei|base|Motion\mei_wait\mei_wait.vmd
+399	2	<eps>	MOTION_ADD|menu|rotate|Motion\menu_rotation\menu_rotation.vmd|FULL|LOOP|OFF
 
+#直接入力
+1	310	RECOG_EVENT_STOP|banditz	MODEL_ADD|panel3|Accessory\circle\banditz.pmd|5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
+1	312	RECOG_EVENT_STOP|GCCC	MODEL_ADD|panel3|Accessory\circle\gccc.pmd|5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
+1	314	RECOG_EVENT_STOP|あいりす	MODEL_ADD|panel3|Accessory\circle\iris.pmd|5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
+1	316	RECOG_EVENT_STOP|じょうさい	MODEL_ADD|panel3|Accessory\circle\josai.pmd|5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
+1	318	RECOG_EVENT_STOP|KTB	MODEL_ADD|panel3|Accessory\circle\ktb.pmd|5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
+1	320	RECOG_EVENT_STOP|MCS	MODEL_ADD|panel3|Accessory\circle\mcs.pmd|5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
+1	322	RECOG_EVENT_STOP|SJM	MODEL_ADD|panel3|Accessory\circle\sjm.pmd|5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
+1	324	RECOG_EVENT_STOP|そうさくけんきゅうかい	MODEL_ADD|panel3|Accessory\circle\souken.pmd|5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
+1	324	RECOG_EVENT_STOP|そうけん	MODEL_ADD|panel3|Accessory\circle\souken.pmd|5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
+1	326	RECOG_EVENT_STOP|ボカリーズ	MODEL_ADD|panel3|Accessory\circle\vocalise.pmd|5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
+1	328	RECOG_EVENT_STOP|よろずえまき	MODEL_ADD|panel3|Accessory\circle\yorozu.pmd|5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
+1	331	RECOG_EVENT_STOP|合気道	MODEL_ADD|panel3|Accessory\circle\aikido.pmd|-5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
+1	333	RECOG_EVENT_STOP|ボラボラ	MODEL_ADD|panel3|Accessory\circle\borabora.pmd|-5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
+1	335	RECOG_EVENT_STOP|ダブル	MODEL_ADD|panel3|Accessory\circle\double.pmd|-5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
+1	337	RECOG_EVENT_STOP|馬術部	MODEL_ADD|panel3|Accessory\circle\equestrian.pmd|-5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
+1	339	RECOG_EVENT_STOP|JANZIES	MODEL_ADD|panel3|Accessory\circle\janzies.pmd|-5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
+1	341	RECOG_EVENT_STOP|ジャンキース	MODEL_ADD|panel3|Accessory\circle\junkeeys.pmd|-5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
+1	343	RECOG_EVENT_STOP|スケート	MODEL_ADD|panel3|Accessory\circle\skate.pmd|-5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
+1	345	RECOG_EVENT_STOP|ソレイユ	MODEL_ADD|panel3|Accessory\circle\soleil.pmd|-5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
+1	347	RECOG_EVENT_STOP|ティービーシー	MODEL_ADD|panel3|Accessory\circle\tbc.pmd|-5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
+1	349	RECOG_EVENT_STOP|ティーエルティーシー	MODEL_ADD|panel3|Accessory\circle\tltc.pmd|-5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
+1	351	RECOG_EVENT_STOP|ティーエスシー	MODEL_ADD|panel3|Accessory\circle\tsc.pmd|-5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 
 # 0401-0429 Q&A
 
