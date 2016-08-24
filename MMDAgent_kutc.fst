@@ -635,3 +635,8 @@
 1	460	RECOG_EVENT_STOP|データリテラシー	SYNTH_START|mei|mei_voice_normal|Excelで頑張る
 460	461	<eps>	MOTION_ADD|mei|action|Motion\mei_greeting\mei_greeting.vmd|PART|ONCE
 461	2	SYNTH_EVENT_STOP|mei	<eps>
+
+# 0500-0599 裏コマンド
+1	500	RECOG_EVENT_STOP|ミク,いい	MODEL_CHANGE|mei|Model\miku\miku.pmd
+500	501	<eps>	SYNTH_START|mei|mei_voice_normal|初音ミクと申します。よろしくお願いします。
+501	2	SYNTH_EVENT_STOP|mei	<eps>
