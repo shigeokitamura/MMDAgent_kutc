@@ -166,6 +166,10 @@
 
 1	31	RECOG_EVENT_STOP|こんにちは	SYNTH_START|mei|mei_voice_normal|こんにちは。
 1	31	RECOG_EVENT_STOP|こんにちわ	SYNTH_START|mei|mei_voice_normal|こんにちは。
+1	31	RECOG_EVENT_STOP|おはよう	SYNTH_START|mei|mei_voice_normal|おはようございます。
+1	31	RECOG_EVENT_STOP|おはよう,ございます	SYNTH_START|mei|mei_voice_normal|おはようございます。
+1	31	RECOG_EVENT_STOP|こんばんは	SYNTH_START|mei|mei_voice_normal|こんばんは。
+1	31	RECOG_EVENT_STOP|こんばんわ	SYNTH_START|mei|mei_voice_normal|こんばんは。
 31	32	<eps>	MOTION_ADD|mei|action|Motion\mei_greeting\mei_greeting.vmd|PART|ONCE
 32	2	SYNTH_EVENT_STOP|mei	<eps>
 
@@ -228,8 +232,8 @@
 # 0101-0110 ホームページ
 
 1	101	RECOG_EVENT_STOP|ホームページ	EXECUTE|http://www.mmdagent.jp/
-1	101	RECOG_EVENT_STOP|ＭＭＤＡｇｅｎｔ	EXECUTE|http://www.mmdagent.jp/
-101	102	<eps>	SYNTH_START|mei|mei_voice_normal|ＭＭＤＡｇｅｎｔの、ホームページを表示します。
+#1	101	RECOG_EVENT_STOP|ＭＭＤＡｇｅｎｔ	EXECUTE|http://www.mmdagent.jp/
+101	102	<eps>	SYNTH_START|mei|mei_voice_normal|関西大学のホームページは、http://www.kansai-u.ac.jp/です。
 102	2	SYNTH_EVENT_STOP|mei	<eps>
 
 # 0111-0120 画面
@@ -240,7 +244,7 @@
 
 # 0121-0122 みやも
 
-1	121	RECOG_EVENT_STOP|話し	SYNTH_START|mei|mei_voice_normal|夜にいつまでも付き合ってくれる女性は、モテません。いつでも付き合ってくれて当たり前、希少価値が生まれません。簡単に口説けそうだし、他の場所でも口説かれてそう、と思われることも多く、悪印象です。ノリがいい事で恋愛のチャンスは増えますが、モテるかどうかは別問題。
+1	121	RECOG_EVENT_STOP|話	SYNTH_START|mei|mei_voice_normal|夜にいつまでも付き合ってくれる女性は、モテません。いつでも付き合ってくれて当たり前、希少価値が生まれません。簡単に口説けそうだし、他の場所でも口説かれてそう、と思われることも多く、悪印象です。ノリがいい事で恋愛のチャンスは増えますが、モテるかどうかは別問題。
 121	2	SYNTH_EVENT_STOP|mei	<eps>
 1	122	RECOG_EVENT_STOP|お腹,すいた	SYNTH_START|mei|mei_voice_normal|男性は、素直な女性が大好きです。デートに連れて行って、素直においしいものをおいしいと嬉しそうにできる女の子がモテます。男慣れしていて、経験値が高い女性よりも、控えめな人生を送って来たであろう女性のほうが喜ばせるかいがありますからね。
 122	2	SYNTH_EVENT_STOP|mei	<eps>
@@ -412,44 +416,44 @@
 308	310	RECOG_EVENT_STOP|banditz	MODEL_ADD|panel3|Accessory\circle\banditz.pmd|5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 308	310	RECOG_EVENT_STOP|軽音	MODEL_ADD|panel3|Accessory\circle\banditz.pmd|5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 310	311	<eps>	MODEL_DELETE|panel2
-311	390	<eps>	SYNTH_START|mei|mei_voice_normal|バンディッツは軽音楽サークルです。月に一回ほど定期ライブをおこなっています。
+311	386	<eps>	SYNTH_START|mei|mei_voice_normal|バンディッツは軽音楽サークルです。月に一回ほど定期ライブをおこなっています。
 
 308	312	KEY|2	MODEL_ADD|panel3|Accessory\circle\gccc.pmd|5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 308	312	RECOG_EVENT_STOP|GCCC	MODEL_ADD|panel3|Accessory\circle\gccc.pmd|5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 308	312	RECOG_EVENT_STOP|ゲーム	MODEL_ADD|panel3|Accessory\circle\gccc.pmd|5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 312	313	<eps>	MODEL_DELETE|panel2
-313	390	<eps>	SYNTH_START|mei|mei_voice_normal|GCCCはゲーム制作サークルです。プログラミング、グラフィック、作曲などの講習をおこない、ゲームを制作しています。
+313	386	<eps>	SYNTH_START|mei|mei_voice_normal|GCCCはゲーム制作サークルです。プログラミング、グラフィック、作曲などの講習をおこない、ゲームを制作しています。
 
 308	314	KEY|3	MODEL_ADD|panel3|Accessory\circle\iris.pmd|5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 308	314	RECOG_EVENT_STOP|あいりす	MODEL_ADD|panel3|Accessory\circle\iris.pmd|5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 308	314	RECOG_EVENT_STOP|写真	MODEL_ADD|panel3|Accessory\circle\iris.pmd|5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 314	315	<eps>	MODEL_DELETE|panel2
-315	390	<eps>	SYNTH_START|mei|mei_voice_normal|アイリスは写真サークルです。
+315	386	<eps>	SYNTH_START|mei|mei_voice_normal|アイリスは写真サークルです。
 
 308	316	KEY|4	MODEL_ADD|panel3|Accessory\circle\josai.pmd|5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 308	316	RECOG_EVENT_STOP|じょうさい	MODEL_ADD|panel3|Accessory\circle\josai.pmd|5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 316	317	<eps>	MODEL_DELETE|panel2
-317	390	<eps>	SYNTH_START|mei|mei_voice_normal|総合情報学部祭典実行委員会、略して情祭では、高槻キャンパス祭、統一祭での管理、運営をしています。毎年みんなに楽しんでもらうために、一体感を大事にして重大な役目をおっています。サークルとしての合宿やイベントも多数あります。
+317	386	<eps>	SYNTH_START|mei|mei_voice_normal|総合情報学部祭典実行委員会、略して情祭では、高槻キャンパス祭、統一祭での管理、運営をしています。毎年みんなに楽しんでもらうために、一体感を大事にして重大な役目をおっています。サークルとしての合宿やイベントも多数あります。
 
 308	318	KEY|5	MODEL_ADD|panel3|Accessory\circle\ktb.pmd|5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 308	318	RECOG_EVENT_STOP|KTB	MODEL_ADD|panel3|Accessory\circle\ktb.pmd|5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 308	318	RECOG_EVENT_STOP|放送局	MODEL_ADD|panel3|Accessory\circle\ktb.pmd|5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 308	318	RECOG_EVENT_STOP|音声	MODEL_ADD|panel3|Accessory\circle\ktb.pmd|5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 318	319	<eps>	MODEL_DELETE|panel2
-319	390	<eps>	SYNTH_START|mei|mei_voice_normal|KTBは放送局です。番組放送や映像制作をおこなっています。
+319	386	<eps>	SYNTH_START|mei|mei_voice_normal|KTBは放送局です。番組放送や映像制作をおこなっています。
 
 308	320	KEY|6	MODEL_ADD|panel3|Accessory\circle\mcs.pmd|5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 308	320	RECOG_EVENT_STOP|MCS	MODEL_ADD|panel3|Accessory\circle\mcs.pmd|5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 308	320	RECOG_EVENT_STOP|映像	MODEL_ADD|panel3|Accessory\circle\mcs.pmd|5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 308	320	RECOG_EVENT_STOP|ボランティア	MODEL_ADD|panel3|Accessory\circle\mcs.pmd|5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 320	321	<eps>	MODEL_DELETE|panel2
-321	390	<eps>	SYNTH_START|mei|mei_voice_normal|MCSは映像系のボランティア団体です。
+321	386	<eps>	SYNTH_START|mei|mei_voice_normal|MCSは映像系のボランティア団体です。
 
 308	322	KEY|7	MODEL_ADD|panel3|Accessory\circle\sjm.pmd|5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 308	322	RECOG_EVENT_STOP|SJM	MODEL_ADD|panel3|Accessory\circle\sjm.pmd|5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 308	322	RECOG_EVENT_STOP|映像制作	MODEL_ADD|panel3|Accessory\circle\sjm.pmd|5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 322	323	<eps>	MODEL_DELETE|panel2
-323	390	<eps>	SYNTH_START|mei|mei_voice_normal|SJMは映像制作団体です。
+323	386	<eps>	SYNTH_START|mei|mei_voice_normal|SJMは映像制作団体です。
 
 308	324	KEY|8	MODEL_ADD|panel3|Accessory\circle\souken.pmd|5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 308	324	RECOG_EVENT_STOP|そうさくけんきゅうかい	MODEL_ADD|panel3|Accessory\circle\souken.pmd|5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
@@ -457,102 +461,104 @@
 308	324	RECOG_EVENT_STOP|イラスト	MODEL_ADD|panel3|Accessory\circle\souken.pmd|5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 308	324	RECOG_EVENT_STOP|漫画	MODEL_ADD|panel3|Accessory\circle\souken.pmd|5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 324	325	<eps>	MODEL_DELETE|panel2
-325	390	<eps>	SYNTH_START|mei|mei_voice_normal|創作研究会はイラストや漫画、音楽や小説の創作活動をしています。会報として作品をサークルで発表しあうだけではなく。コミックマーケットやコミックトレジャーで、みんなの作品を外部のかたに知ってもらうための活動もしています。
+325	386	<eps>	SYNTH_START|mei|mei_voice_normal|創作研究会はイラストや漫画、音楽や小説の創作活動をしています。会報として作品をサークルで発表しあうだけではなく。コミックマーケットやコミックトレジャーで、みんなの作品を外部のかたに知ってもらうための活動もしています。
 
 308	326	KEY|9	MODEL_ADD|panel3|Accessory\circle\vocalise.pmd|5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 308	326	RECOG_EVENT_STOP|ボカリーズ	MODEL_ADD|panel3|Accessory\circle\vocalise.pmd|5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 308	326	RECOG_EVENT_STOP|アカペラ	MODEL_ADD|panel3|Accessory\circle\vocalise.pmd|5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 326	327	<eps>	MODEL_DELETE|panel2
-327	390	<eps>	SYNTH_START|mei|mei_voice_normal|ボカリーズはアカペラサークルです。毎週きんようびにテラスで集まって、みんなで歌の練習をしたりしています。新歓ライブ、クリスマスライブなど、イベントも多数です。高槻祭だけでなく統一祭などでも活躍しています。
+327	386	<eps>	SYNTH_START|mei|mei_voice_normal|ボカリーズはアカペラサークルです。毎週きんようびにテラスで集まって、みんなで歌の練習をしたりしています。新歓ライブ、クリスマスライブなど、イベントも多数です。高槻祭だけでなく統一祭などでも活躍しています。
 
 308	328	KEY|0	MODEL_ADD|panel3|Accessory\circle\yorozu.pmd|5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 308	328	RECOG_EVENT_STOP|よろずえまき	MODEL_ADD|panel3|Accessory\circle\yorozu.pmd|5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 308	328	RECOG_EVENT_STOP|劇団	MODEL_ADD|panel3|Accessory\circle\yorozu.pmd|5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 308	328	RECOG_EVENT_STOP|演劇	MODEL_ADD|panel3|Accessory\circle\yorozu.pmd|5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 328	329	<eps>	MODEL_DELETE|panel2
-329	390	<eps>	SYNTH_START|mei|mei_voice_normal|劇団よろずえまきは演劇サークルです。とてもアクティブなサークルで、年6回の公演に向けて日々楽しく活動しています。役者だけではなく、ポスター、小道具、服などを作りたい人がスタッフとして仕事をしたり、みんなが得意分野を演劇で生かして活動しています。
+329	386	<eps>	SYNTH_START|mei|mei_voice_normal|劇団よろずえまきは演劇サークルです。とてもアクティブなサークルで、年6回の公演に向けて日々楽しく活動しています。役者だけではなく、ポスター、小道具、服などを作りたい人がスタッフとして仕事をしたり、みんなが得意分野を演劇で生かして活動しています。
 
 #体育系サークル・部活
 330	331	KEY|1	MODEL_ADD|panel3|Accessory\circle\aikido.pmd|-5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 330	331	RECOG_EVENT_STOP|合気道	MODEL_ADD|panel3|Accessory\circle\aikido.pmd|-5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 331	332	<eps>	MODEL_DELETE|panel1
-332	391	<eps>	SYNTH_START|mei|mei_voice_normal|そうじょうあいきは、高槻市にある道場の稽古に参加している合気道サークルです。社会人の方々とも交流しながら稽古に励んでいます。
+332	385	<eps>	SYNTH_START|mei|mei_voice_normal|そうじょうあいきは、高槻市にある道場の稽古に参加している合気道サークルです。社会人の方々とも交流しながら稽古に励んでいます。
 
 330	333	KEY|2	MODEL_ADD|panel3|Accessory\circle\borabora.pmd|-5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 330	333	RECOG_EVENT_STOP|ボラボラ	MODEL_ADD|panel3|Accessory\circle\borabora.pmd|-5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 330	333	RECOG_EVENT_STOP|バレー	MODEL_ADD|panel3|Accessory\circle\borabora.pmd|-5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 333	334	<eps>	MODEL_DELETE|panel1
-334	391	<eps>	SYNTH_START|mei|mei_voice_normal|ボラボラは、男女合わせて50人から60人ほどの賑やかなバレーボールサークルです。主に水曜日と土曜日の週2回、高槻キャンパスの体育館で活動しています。
+334	385	<eps>	SYNTH_START|mei|mei_voice_normal|ボラボラは、男女合わせて50人から60人ほどの賑やかなバレーボールサークルです。主に水曜日と土曜日の週2回、高槻キャンパスの体育館で活動しています。
 
 330	335	KEY|3	MODEL_ADD|panel3|Accessory\circle\double.pmd|-5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 330	335	RECOG_EVENT_STOP|ダブル	MODEL_ADD|panel3|Accessory\circle\double.pmd|-5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 330	335	RECOG_EVENT_STOP|ダブルタッチ	MODEL_ADD|panel3|Accessory\circle\double.pmd|-5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 335	336	<eps>	MODEL_DELETE|panel1
-336	391	<eps>	SYNTH_START|mei|mei_voice_normal|だぶるは、ダブルタッチという縄跳びをするサークルです。週に2回程度、大学院棟前の広場や高槻ミューズキャンパス横の公園にて練習しています。キャンパス祭では毎年パフォーマンスを行います。
+336	385	<eps>	SYNTH_START|mei|mei_voice_normal|だぶるは、ダブルタッチという縄跳びをするサークルです。週に2回程度、大学院棟前の広場や高槻ミューズキャンパス横の公園にて練習しています。キャンパス祭では毎年パフォーマンスを行います。
 
 330	337	KEY|4	MODEL_ADD|panel3|Accessory\circle\equestrian.pmd|-5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 330	337	RECOG_EVENT_STOP|馬術部	MODEL_ADD|panel3|Accessory\circle\equestrian.pmd|-5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 337	338	<eps>	MODEL_DELETE|panel1
-338	391	<eps>	SYNTH_START|mei|mei_voice_normal|体育会馬術部は、これまでに幾度も全日本学生の大会に出場し、個人や団体で優勝、連覇するなど、全国でも有数の強豪校として名をつらねています。高槻キャンパスの静かな良い環境のもとで活動しています。
+338	385	<eps>	SYNTH_START|mei|mei_voice_normal|体育会馬術部は、これまでに幾度も全日本学生の大会に出場し、個人や団体で優勝、連覇するなど、全国でも有数の強豪校として名をつらねています。高槻キャンパスの静かな良い環境のもとで活動しています。
 
 330	339	KEY|5	MODEL_ADD|panel3|Accessory\circle\janzies.pmd|-5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 330	339	RECOG_EVENT_STOP|ジャンジーズ	MODEL_ADD|panel3|Accessory\circle\janzies.pmd|-5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 330	339	RECOG_EVENT_STOP|野球	MODEL_ADD|panel3|Accessory\circle\janzies.pmd|-5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 339	340	<eps>	MODEL_DELETE|panel1
-340	391	<eps>	SYNTH_START|mei|mei_voice_normal|ジャンジーズは、毎週水曜日に他チームとの練習試合を行なったり、春夏秋冬に一回ずつの試合に向けて日々練習をしているアクティブな硬式野球サークルです。夏や年末にみんなで親睦を深めるための楽しいイベントもあります。
+340	385	<eps>	SYNTH_START|mei|mei_voice_normal|ジャンジーズは、毎週水曜日に他チームとの練習試合を行なったり、春夏秋冬に一回ずつの試合に向けて日々練習をしているアクティブな硬式野球サークルです。夏や年末にみんなで親睦を深めるための楽しいイベントもあります。
 
 330	341	KEY|6	MODEL_ADD|panel3|Accessory\circle\junkeeys.pmd|-5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 330	341	RECOG_EVENT_STOP|ジャンキース	MODEL_ADD|panel3|Accessory\circle\junkeeys.pmd|-5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 330	341	RECOG_EVENT_STOP|バスケ	MODEL_ADD|panel3|Accessory\circle\junkeeys.pmd|-5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 341	342	<eps>	MODEL_DELETE|panel1
-342	391	<eps>	SYNTH_START|mei|mei_voice_normal|ジャンキースは、バスケットボールサークルです。毎週火曜日に川西体育館で本格的な練習、毎週水曜日と土曜日は大学の体育館でゆるーく活動しています。
+342	385	<eps>	SYNTH_START|mei|mei_voice_normal|ジャンキースは、バスケットボールサークルです。毎週火曜日に川西体育館で本格的な練習、毎週水曜日と土曜日は大学の体育館でゆるーく活動しています。
 
 330	343	KEY|7	MODEL_ADD|panel3|Accessory\circle\skate.pmd|-5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 330	343	RECOG_EVENT_STOP|スケート	MODEL_ADD|panel3|Accessory\circle\skate.pmd|-5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 343	344	<eps>	MODEL_DELETE|panel1
-344	391	<eps>	SYNTH_START|mei|mei_voice_normal|体育会アイススケート部は、フィギュア部門、スピード部門の2部門に分かれて日々の練習に励んでいます。全国レベルの選手権大会で活躍する部員、大学で競技を初め個々の技術習得を目指す部員など、さまざまなメンバーがいます。
+344	385	<eps>	SYNTH_START|mei|mei_voice_normal|体育会アイススケート部は、フィギュア部門、スピード部門の2部門に分かれて日々の練習に励んでいます。全国レベルの選手権大会で活躍する部員、大学で競技を初め個々の技術習得を目指す部員など、さまざまなメンバーがいます。
 
 330	345	KEY|8	MODEL_ADD|panel3|Accessory\circle\soleil.pmd|-5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 330	345	RECOG_EVENT_STOP|ソレイユ	MODEL_ADD|panel3|Accessory\circle\soleil.pmd|-5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 330	345	RECOG_EVENT_STOP|テニス	MODEL_ADD|panel3|Accessory\circle\soleil.pmd|-5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 345	346	<eps>	MODEL_DELETE|panel1
-346	391	<eps>	SYNTH_START|mei|mei_voice_normal|ソレイユは、ソフトテニスサークルです。すいようときんようの週二回あつまって練習をしています。経験者も初心者も、どちらも楽しんで活動をしています。年間イベントも多数行われています。
+346	385	<eps>	SYNTH_START|mei|mei_voice_normal|ソレイユは、ソフトテニスサークルです。すいようときんようの週二回あつまって練習をしています。経験者も初心者も、どちらも楽しんで活動をしています。年間イベントも多数行われています。
 
 330	347	KEY|9	MODEL_ADD|panel3|Accessory\circle\tbc.pmd|-5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 330	347	RECOG_EVENT_STOP|ティービーシー	MODEL_ADD|panel3|Accessory\circle\tbc.pmd|-5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 330	347	RECOG_EVENT_STOP|バドミントン	MODEL_ADD|panel3|Accessory\circle\tbc.pmd|-5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 347	348	<eps>	MODEL_DELETE|panel1
-348	391	<eps>	SYNTH_START|mei|mei_voice_normal|てぃーびーしーは高槻のバトミントンサークルです。毎週四回の練習を行っています。部員数は200人に及ぶ巨大サークルです。年間イベントも多数あります、長期休暇の遠方への旅行などもあり、サークル内の絆がとても深いです。
+348	385	<eps>	SYNTH_START|mei|mei_voice_normal|TBCは高槻のバトミントンサークルです。毎週四回の練習を行っています。部員数は200人に及ぶ巨大サークルです。年間イベントも多数あります、長期休暇の遠方への旅行などもあり、サークル内の絆がとても深いです。
 
 330	349	KEY|0	MODEL_ADD|panel3|Accessory\circle\tltc.pmd|-5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 330	349	RECOG_EVENT_STOP|ティーエルティーシー	MODEL_ADD|panel3|Accessory\circle\tltc.pmd|-5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 330	349	RECOG_EVENT_STOP|テニス	MODEL_ADD|panel3|Accessory\circle\tltc.pmd|-5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 349	350	<eps>	MODEL_DELETE|panel1
-350	391	<eps>	SYNTH_START|mei|mei_voice_normal|てぃーえるてぃーしーは高槻のテニスサークルです。テニスコートですいようびとどようびにみんなで練習をおこなっています。かようびときんようびにはコート開放で、各自で自由に練習を行うこともできます。
+350	385	<eps>	SYNTH_START|mei|mei_voice_normal|TLTCは高槻のテニスサークルです。テニスコートですいようびとどようびにみんなで練習をおこなっています。かようびときんようびにはコート開放で、各自で自由に練習を行うこともできます。
 
 330	351	KEY|^	MODEL_ADD|panel3|Accessory\circle\tsc.pmd|-5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 330	351	RECOG_EVENT_STOP|ティーエスシー	MODEL_ADD|panel3|Accessory\circle\tsc.pmd|-5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 330	351	RECOG_EVENT_STOP|サッカー	MODEL_ADD|panel3|Accessory\circle\tsc.pmd|-5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 351	352	<eps>	MODEL_DELETE|panel1
-352	391	<eps>	SYNTH_START|mei|mei_voice_normal|てぃーえすしーはサッカーサークルです。毎週すいようびに授業が終わったあと、練習をしています。大会や合宿にも参加しています。サッカーを楽しみたい人や本気で取り組みたい人、どちらも楽しめるサークルです。
+352	385	<eps>	SYNTH_START|mei|mei_voice_normal|TSCはサッカーサークルです。毎週すいようびに授業が終わったあと、練習をしています。大会や合宿にも参加しています。サッカーを楽しみたい人や本気で取り組みたい人、どちらも楽しめるサークルです。
 
-390	393	SYNTH_EVENT_STOP|mei	MODEL_DELETE|panel2
-391	392	SYNTH_EVENT_STOP|mei	MODEL_DELETE|panel1
-393	394	<eps>	MODEL_DELETE|panel1
-392	394	<eps>	MODEL_DELETE|panel2
+385	387	SYNTH_EVENT_STOP|mei	MODEL_DELETE|panel2
+386	388	SYNTH_EVENT_STOP|mei	MODEL_DELETE|panel1
+387	389	<eps>	MODEL_DELETE|panel1
+388	389	<eps>	MODEL_DELETE|panel2
 
-394	395	<eps>	MODEL_DELETE|panel3
-395	396	MODEL_EVENT_DELETE|panel3	SYNTH_START|mei|mei_voice_normal|他に気になるサークルはありますか？
-396	301	KEY|Y	SYNTH_START|mei|mei_voice_normal|文化系と体育系、どちらが気になりますか？
-396	301	RECOG_EVENT_STOP|はい	SYNTH_START|mei|mei_voice_normal|文化系と体育系、どちらが気になりますか？
-396	397	KEY|N	<eps>
-396	397	RECOG_EVENT_STOP|いいえ	<eps>
-
-#end
-397	398	<eps>	MODEL_ADD|menu|Accessory\menu\menu.pmd|0.0,-4.5,0.0|0.0,0.0,0.0|ON|mei
-398	399	<eps>	MOTION_ADD|mei|action|Motion\mei_bye\mei_bye.vmd|PART|ONCE
-#399	400	<eps>	MOTION_CHANGE|mei|base|Motion\mei_wait\mei_wait.vmd
-399	2	<eps>	MOTION_ADD|menu|rotate|Motion\menu_rotation\menu_rotation.vmd|FULL|LOOP|OFF
+389	390	<eps>	MODEL_DELETE|panel3
+390	391	MODEL_EVENT_DELETE|panel3	SYNTH_START|mei|mei_voice_normal|ほかに気になるサークルはありますか？
+391	392	SYNTH_EVENT_STOP|mei	MODEL_ADD|panel1|Accessory\answer\yes.pmd|-7.0,5.0,2.5|0.0,0.0,0.0|ON|mei
+392	393	MODEL_EVENT_ADD|panel1	MODEL_ADD|panel2|Accessory\answer\no.pmd|7.0,5.0,2.5|0.0,0.0,0.0|ON|mei
+393	394	KEY|Y	MODEL_DELETE|panel2
+393	394	RECOG_EVENT_STOP|はい	MODEL_DELETE|panel2
+394	395	MODEL_EVENT_DELETE|panel2	MODEL_DELETE|panel1
+395	301	<eps>	SYNTH_START|mei|mei_voice_normal|文化系と体育系、どちらが気になりますか？
+393	397	KEY|N	MODEL_DELETE|panel1
+393	397	RECOG_EVENT_STOP|いいえ	MODEL_DELETE|panel1
+397	398	MODEL_EVENT_DELETE|panel1	MODEL_DELETE|panel2
+398	399	MODEL_EVENT_DELETE|panel2	MODEL_ADD|menu|Accessory\menu\menu.pmd|0.0,-4.5,0.0|0.0,0.0,0.0|ON|mei
+399	400	MODEL_EVENT_ADD|menu	MOTION_ADD|mei|action|Motion\mei_bye\mei_bye.vmd|PART|ONCE
+400	2	<eps>	MOTION_ADD|menu|rotate|Motion\menu_rotation\menu_rotation.vmd|FULL|LOOP|OFF
 
 #直接入力
 1	310	RECOG_EVENT_STOP|banditz	MODEL_ADD|panel3|Accessory\circle\banditz.pmd|5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
@@ -632,11 +638,13 @@
 1	460	RECOG_EVENT_STOP|実習	SYNTH_START|mei|mei_voice_normal|総合情報学部の実習は，プログラミング実習，映像実習，グラフィックス実習，データリテラシー実習，ネットワーク実習などがあります．
 1	460	RECOG_EVENT_STOP|プログラミング	SYNTH_START|mei|mei_voice_normal|プログラミング実習では、C言語を扱って．変数や，演算子や条件分岐，文字列，ポインタ変数．構造体などの基本的なCプログラミング技術の修得を目指します．
 1	460	RECOG_EVENT_STOP|グラフィックス	SYNTH_START|mei|mei_voice_normal|グラフィックス基礎実習では，アドビイラストレーターを使って，グラフィックス制作の基礎を身につけます．実際に広告などを作ることで，実践的なデザインリテラシーを修得します。
-1	460	RECOG_EVENT_STOP|データリテラシー	SYNTH_START|mei|mei_voice_normal|Excelで頑張る
+1	460	RECOG_EVENT_STOP|データリテラシー	SYNTH_START|mei|mei_voice_normal|Excelで頑張る実習です。
 460	461	<eps>	MOTION_ADD|mei|action|Motion\mei_greeting\mei_greeting.vmd|PART|ONCE
 461	2	SYNTH_EVENT_STOP|mei	<eps>
 
 # 0500-0599 裏コマンド
 1	500	RECOG_EVENT_STOP|初音ミク	MODEL_CHANGE|mei|Model\miku\miku.pmd
+1	500	RECOG_EVENT_STOP|ミク,いい	MODEL_CHANGE|mei|Model\miku\miku.pmd
+1	500	KEY|N	MODEL_CHANGE|mei|Model\miku\miku.pmd
 500	501	<eps>	SYNTH_START|mei|mei_voice_normal|初音ミクと申します。よろしくお願いします。
 501	2	SYNTH_EVENT_STOP|mei	<eps>
