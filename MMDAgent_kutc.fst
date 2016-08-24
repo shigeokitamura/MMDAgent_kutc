@@ -265,7 +265,7 @@
 1	151	RECOG_EVENT_STOP|あり	MODEL_DELETE|menu
 1	151	RECOG_EVENT_STOP|アイス	MODEL_DELETE|menu
 1	151	RECOG_EVENT_STOP|あい	MODEL_DELETE|menu
-151	152	<eps>	MODEL_ADD|panel|Accessory\map\index-map.pmd|0.0,2.8,2.5|0.0,0.0,0.0|ON|mei
+1	151	RECOG_EVENT_STOP|アイスアリーナ	MODEL_DELETE|menu
 152	153	<eps>	MOTION_ADD|mei|action|Motion\mei_panel\mei_panel_on.vmd|PART|ONCE
 153	154	<eps>	MOTION_CHANGE|mei|base|Motion\mei_guide\mei_guide_normal.vmd
 154	155	<eps>	SYNTH_START|mei|mei_voice_normal|西の口のバス停で降りて右手に進んでください。
@@ -343,7 +343,7 @@
 
 1	262	RECOG_EVENT_STOP|加藤	MODEL_DELETE|menu
 262	263	<eps>	MODEL_ADD|panel|Accessory\teacher\kato.pmd|5.0,6.0,3.0|0.0,0.0,0.0|ON|mei
-263	264	<eps>	SYNTH_START|mei|mei_voice_normal|加藤隆教授。４月１日生まれ、マサチューセッツ大学心理学科を卒業され、専門領域は、認知社会心理学です。キーワードとして、ヒューマンインタフェース、認知心理学、認知と感情のかかわり、が、あげられます。そして、ダジャレ大好きおじさんです。
+263	264	<eps>	SYNTH_START|mei|mei_voice_normal|加藤隆教授。４月１日生まれ、マサチューセッツ大学心理学科を卒業され、専門領域は、認知社会心理学です。キーワードとして、ヒューマンインタフェース、認知心理学、認知と感情のかかわり、が、あげられます。そして、ダジャレ大好きです。
 264	2	SYNTH_EVENT_STOP|mei	MODEL_DELETE|panel
 
 1	1262	RECOG_EVENT_STOP|桑門	MODEL_DELETE|menu
@@ -378,7 +378,7 @@
 
 1	281	RECOG_EVENT_STOP|林	MODEL_DELETE|menu
 281	282	<eps>	MODEL_ADD|panel|Accessory\teacher\hayashi.pmd|5.0,6.0,3.0|0.0,0.0,0.0|ON|mei
-282	283	<eps>	SYNTH_START|mei|mei_voice_normal|林いさお教授。視覚情報処理や、情報の可視化についての専門家です。　また、ＣＧについてのプロです。　授業は生徒思いで優しいです。
+282	283	<eps>	SYNTH_START|mei|mei_voice_normal|林たけふみ教授。視覚情報処理や、情報の可視化についての専門家です。　また、ＣＧについてのプロです。　授業は生徒思いで優しいです。
 283	2	SYNTH_EVENT_STOP|mei	MODEL_DELETE|panel
 
 1	284	RECOG_EVENT_STOP|松本	MODEL_DELETE|menu
@@ -429,7 +429,7 @@
 308	316	KEY|4	MODEL_ADD|panel3|Accessory\circle\josai.pmd|5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 308	316	RECOG_EVENT_STOP|じょうさい	MODEL_ADD|panel3|Accessory\circle\josai.pmd|5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 316	317	<eps>	MODEL_DELETE|panel2
-317	390	<eps>	SYNTH_START|mei|mei_voice_normal|総合情報学部祭典実行委員会略して情祭では、高槻キャンパス祭、統一祭での管理、運営をしています。毎年みんなに楽しんでもらうために、一体感を大事にして重大な役目をおっています。サークルとしての合宿やイベントも多数あります。
+317	390	<eps>	SYNTH_START|mei|mei_voice_normal|総合情報学部祭典実行委員会、略して情祭では、高槻キャンパス祭、統一祭での管理、運営をしています。毎年みんなに楽しんでもらうために、一体感を大事にして重大な役目をおっています。サークルとしての合宿やイベントも多数あります。
 
 308	318	KEY|5	MODEL_ADD|panel3|Accessory\circle\ktb.pmd|5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 308	318	RECOG_EVENT_STOP|KTB	MODEL_ADD|panel3|Accessory\circle\ktb.pmd|5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
@@ -457,7 +457,7 @@
 308	324	RECOG_EVENT_STOP|イラスト	MODEL_ADD|panel3|Accessory\circle\souken.pmd|5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 308	324	RECOG_EVENT_STOP|漫画	MODEL_ADD|panel3|Accessory\circle\souken.pmd|5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 324	325	<eps>	MODEL_DELETE|panel2
-325	390	<eps>	SYNTH_START|mei|mei_voice_normal|創作研究会はイラストや漫画、音楽や小説の創作活動をしています。会報として作品をサークルで発表しあうだけではなく。コミックマーケットやコミックトレジャーで、みんなの作品を外部の方に知ってもらうための活動もしています。
+325	390	<eps>	SYNTH_START|mei|mei_voice_normal|創作研究会はイラストや漫画、音楽や小説の創作活動をしています。会報として作品をサークルで発表しあうだけではなく。コミックマーケットやコミックトレジャーで、みんなの作品を外部のかたに知ってもらうための活動もしています。
 
 308	326	KEY|9	MODEL_ADD|panel3|Accessory\circle\vocalise.pmd|5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 308	326	RECOG_EVENT_STOP|ボカリーズ	MODEL_ADD|panel3|Accessory\circle\vocalise.pmd|5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
@@ -496,7 +496,7 @@
 338	391	<eps>	SYNTH_START|mei|mei_voice_normal|体育会馬術部は、これまでに幾度も全日本学生の大会に出場し、個人や団体で優勝、連覇するなど、全国でも有数の強豪校として名をつらねています。高槻キャンパスの静かな良い環境のもとで活動しています。
 
 330	339	KEY|5	MODEL_ADD|panel3|Accessory\circle\janzies.pmd|-5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
-330	339	RECOG_EVENT_STOP|JANZIES	MODEL_ADD|panel3|Accessory\circle\janzies.pmd|-5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
+330	339	RECOG_EVENT_STOP|ジャンジーズ	MODEL_ADD|panel3|Accessory\circle\janzies.pmd|-5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 330	339	RECOG_EVENT_STOP|野球	MODEL_ADD|panel3|Accessory\circle\janzies.pmd|-5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 339	340	<eps>	MODEL_DELETE|panel1
 340	391	<eps>	SYNTH_START|mei|mei_voice_normal|ジャンジーズは、毎週水曜日に他チームとの練習試合を行なったり、春夏秋冬に一回ずつの試合に向けて日々練習をしているアクティブな硬式野球サークルです。夏や年末にみんなで親睦を深めるための楽しいイベントもあります。
@@ -526,9 +526,9 @@
 
 330	349	KEY|0	MODEL_ADD|panel3|Accessory\circle\tltc.pmd|-5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 330	349	RECOG_EVENT_STOP|ティーエルティーシー	MODEL_ADD|panel3|Accessory\circle\tltc.pmd|-5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
-330	349	RECOG_EVENT_STOP|ダンス	MODEL_ADD|panel3|Accessory\circle\tltc.pmd|-5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
+330	349	RECOG_EVENT_STOP|テニス	MODEL_ADD|panel3|Accessory\circle\tltc.pmd|-5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 349	350	<eps>	MODEL_DELETE|panel1
-350	391	<eps>	SYNTH_START|mei|mei_voice_normal|てぃーえるてぃーしーは高槻のテニスサークルです。テニスコートですいようびとどようびにみんなで練習を行っています。かようびときんようびにはコート開放で、各自で自由に練習を行うこともできます。
+350	391	<eps>	SYNTH_START|mei|mei_voice_normal|てぃーえるてぃーしーは高槻のテニスサークルです。テニスコートですいようびとどようびにみんなで練習をおこなっています。かようびときんようびにはコート開放で、各自で自由に練習を行うこともできます。
 
 330	351	KEY|^	MODEL_ADD|panel3|Accessory\circle\tsc.pmd|-5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 330	351	RECOG_EVENT_STOP|ティーエスシー	MODEL_ADD|panel3|Accessory\circle\tsc.pmd|-5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
@@ -601,11 +601,11 @@
 
 # 0430-0459 カリキュラム
 
-1	430	RECOG_EVENT_STOP|学費	SYNTH_START|mei|mei_voice_normal|年間150万円
+1	430	RECOG_EVENT_STOP|学費	SYNTH_START|mei|mei_voice_normal|年間150万円です。
 430	431	<eps>	MOTION_ADD|mei|action|Motion\mei_greeting\mei_greeting.vmd|PART|ONCE
 431	2	SYNTH_EVENT_STOP|mei	<eps>
 
-1	432	RECOG_EVENT_STOP|住所	SYNTH_START|mei|mei_voice_normal|大阪府高槻市霊仙寺町2-1-1
+1	432	RECOG_EVENT_STOP|住所	SYNTH_START|mei|mei_voice_normal|大阪府高槻市霊仙寺町2-1-1です。
 432	433	<eps>	MOTION_ADD|mei|action|Motion\mei_greeting\mei_greeting.vmd|PART|ONCE
 433	2	SYNTH_EVENT_STOP|mei	<eps>
 
@@ -619,18 +619,18 @@
 440	441	<eps>	MOTION_CHANGE|mei|base|Motion\mei_wait\mei_wait.vmd
 441	2	<eps>	MOTION_ADD|menu|rotate|Motion\menu_rotation\menu_rotation.vmd|FULL|LOOP|OFF
 
-1	442	RECOG_EVENT_STOP|3つの系	SYNTH_START|mei|mei_voice_normal|総合情報学部は、情報をキーワードとして文系/理系という枠組みにとらわれず人文・社会・自然科学の3つの分野を横断的に学べるユニークな学部です。
+1	442	RECOG_EVENT_STOP|3つの系	SYNTH_START|mei|mei_voice_normal|総合情報学部は、情報をキーワードとして文系/理系という枠組みにとらわれず、人文・社会・自然科学の3つの分野を、横断的に学べるユニークな学部です。
 442	443	SYNTH_EVENT_STOP|mei	MOTION_ADD|mei|look|Motion\mei_look\mei_look_down.vmd|PART|ONCE
 443	444	<eps>	SYNTH_START|mei|mei_voice_normal|政治、経済、文化、科学技術、コミュニケーションなどあらゆる領域の問題を「情報」の視点から探究・解明します。
 444	445	SYNTH_EVENT_STOP|mei	MOTION_CHANGE|mei|base|Motion\mei_guide\mei_guide_happy.vmd
-445	446	<eps>	SYNTH_START|mei|mei_voice_normal|また、理論的知識だけでなく、人間と社会に対する幅広い視野とともに実践的な情報フルエンシー（利活用能力）を身につける教育を行っています。
+445	446	<eps>	SYNTH_START|mei|mei_voice_normal|また、理論的知識だけでなく、人間と社会に対する幅広い視野とともに実践的な情報フルエンシー（利活用能力）を身につける教育をおこなっています。
 446	447	<eps>	MOTION_ADD|mei|action|Motion\mei_greeting\mei_greeting.vmd|PART|ONCE
 447	2	SYNTH_EVENT_STOP|mei	<eps>
 
 # 0460-0499 実習
 
 1	460	RECOG_EVENT_STOP|実習	SYNTH_START|mei|mei_voice_normal|総合情報学部の実習は，プログラミング実習，映像実習，グラフィックス実習，データリテラシー実習，ネットワーク実習などがあります．
-1	460	RECOG_EVENT_STOP|プログラミング	SYNTH_START|mei|mei_voice_normal|プログラミング実習ではC言語を扱って．変数や，演算子や条件分岐，文字列，ポインタ変数．構造体などの基本的なCプログラミング技術の修得を目指します．
+1	460	RECOG_EVENT_STOP|プログラミング	SYNTH_START|mei|mei_voice_normal|プログラミング実習では、C言語を扱って．変数や，演算子や条件分岐，文字列，ポインタ変数．構造体などの基本的なCプログラミング技術の修得を目指します．
 1	460	RECOG_EVENT_STOP|グラフィックス	SYNTH_START|mei|mei_voice_normal|グラフィックス基礎実習では，アドビイラストレーターを使って，グラフィックス制作の基礎を身につけます．実際に広告などを作ることで，実践的なデザインリテラシーを修得します。
 1	460	RECOG_EVENT_STOP|データリテラシー	SYNTH_START|mei|mei_voice_normal|Excelで頑張る
 460	461	<eps>	MOTION_ADD|mei|action|Motion\mei_greeting\mei_greeting.vmd|PART|ONCE
