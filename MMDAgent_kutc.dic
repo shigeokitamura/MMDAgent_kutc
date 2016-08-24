@@ -6,14 +6,14 @@
 <unk>	@0.0	<unk>	[文化]	b u N k a
 <unk>	@0.0	<unk>	[体育]	t a i i k u
 <unk>	@0.0	<unk>	[体育]	t a i: k u
-<unk>	@0.0	<unk>	[GCCC]	j i: sh i: sh i: sh i:
-<unk>	@0.0	<unk>	[banditz]	b a n d i q ts u
+<unk>	@1.0	<unk>	[GCCC]	j i: sh i: sh i: sh i:
+<unk>	@1.0	<unk>	[banditz]	b a n d i q ts u
 <unk>	@0.0	<unk>	[あいりす]	a i r i s u
 <unk>	@0.0	<unk>	[じょうさい]	j o u s a i
 <unk>	@0.0	<unk>	[じょうさい]	j o: s a i
-<unk>	@0.0	<unk>	[KTB]	k e: t i: b i:
-<unk>	@0.0	<unk>	[MCS]	e m u sh i: e s u
-<unk>	@0.0	<unk>	[SJM]	e s u j e: e m u
+<unk>	@1.0	<unk>	[KTB]	k e: t i: b i:
+<unk>	@1.0	<unk>	[MCS]	e m u sh i: e s u
+<unk>	@1.0	<unk>	[SJM]	e s u j e: e m u
 <unk>	@0.0	<unk>	[そうさくけんきゅうかい]	s o u s a k u k e N k y u u k a i
 <unk>	@0.0	<unk>	[そうさくけんきゅうかい]	s o: s a k u k e N k y u: k a i
 <unk>	@0.0	<unk>	[ボカリーズ]	b o k a r i: z u
@@ -24,13 +24,13 @@
 <unk>	@0.0	<unk>	[ボラボラ]	b o r a b o r a
 <unk>	@0.0	<unk>	[ダブル]	d a b u r u
 <unk>	@0.0	<unk>	[馬術部]	b a j u ts u b u
-<unk>	@0.0	<unk>	[ジャンジーズ]	j a N z i: z u
-<unk>	@0.0	<unk>	[ジャンキース]	j a N k i: s u
-<unk>	@0.0	<unk>	[スケート]	s u k e: t o
-<unk>	@0.0	<unk>	[ソレイユ]	s o r e i y u
-<unk>	@0.0	<unk>	[ティービーシー]	t i: b i: s i:
-<unk>	@0.0	<unk>	[ティーエルティーシー]	t i: e r u t i: sh i:
-<unk>	@0.0	<unk>	[ティーエスシー]	t i: e s u sh i:
+<unk>	@1.0	<unk>	[ジャンジーズ]	j a N z i: z u
+<unk>	@1.0	<unk>	[ジャンキース]	j a N k i: s u
+<unk>	@1.0	<unk>	[スケート]	s u k e: t o
+<unk>	@1.0	<unk>	[ソレイユ]	s o r e i y u
+<unk>	@1.0	<unk>	[ティービーシー]	t i: b i: s i:
+<unk>	@1.0	<unk>	[ティーエルティーシー]	t i: e r u t i: sh i:
+<unk>	@1.0	<unk>	[ティーエスシー]	t i: e s u sh i:
 
 <unk>	@0.0	<unk>	[がくさい]	g a k u s a i
 <unk>	@0.0	<unk>	[がくえんさい]	g a k u e N s a i
@@ -157,4 +157,9 @@
 <unk>	@0.0	<unk>	[実習]	z i p sh u u
 <unk>	@0.0	<unk>	[プログラミング]	p u r o g u r a m i N g u
 <unk>	@0.0	<unk>	[グラフィックス]	g u r a f i p k u s u
+<unk>	@0.0	<unk>	[データリテラシー]	d e: t a r i t e r a sh i:
+
+<unk>	@0.0	<unk>	[はい]	h a i
+<unk>	@0.0	<unk>	[いいえ]	i i e
+<unk>	@0.0	<unk>	[ありがとう]	a r i g a t o u
 <unk>	@0.0	<unk>	[データリテラシー]	d e: t a r i t e r a sh i:
