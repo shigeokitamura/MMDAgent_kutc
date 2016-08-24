@@ -288,19 +288,19 @@
 # 0201-0220 宮本
 
 1	201	RECOG_EVENT_STOP|古賀	MODEL_DELETE|menu
-1	201	RECOG_EVENT_STOP|古賀、誰	MODEL_DELETE|menu
+1	201	RECOG_EVENT_STOP|古賀,誰	MODEL_DELETE|menu
 201	202	<eps>	MODEL_ADD|panel|Accessory\teacher\kogaga.pmd|5.0,6.0,1.0|0.0,0.0,0.0|ON|mei
 202	203	<eps>	SYNTH_START|mei|mei_voice_normal|古賀広志教授は、経営情報システム論の研究をされています。情報と職業などの講義を担当しており、とても優しいおっちゃんです。
 203	2	SYNTH_EVENT_STOP|mei	MODEL_DELETE|panel
 
 1	204	RECOG_EVENT_STOP|松下	MODEL_DELETE|menu
-1	204	RECOG_EVENT_STOP|松下、誰	MODEL_DELETE|menu
+1	204	RECOG_EVENT_STOP|松下,誰	MODEL_DELETE|menu
 204	205	<eps>	MODEL_ADD|panel|Accessory\teacher\matsushita.pmd|5.0,6.0,3.0|0.0,0.0,0.0|ON|mei
 205	206	<eps>	SYNTH_START|mei|mei_voice_normal|松下光範教授は、インタラクティブシステムデザインの研究をされています。インタラクティブアート実習などの講義を担当しており、とても優しいおっちゃんです。
 206	2	SYNTH_EVENT_STOP|mei	MODEL_DELETE|panel
 
 1	207	RECOG_EVENT_STOP|米沢	MODEL_DELETE|menu
-1	207	RECOG_EVENT_STOP|米沢、誰	MODEL_DELETE|menu
+1	207	RECOG_EVENT_STOP|米沢,誰	MODEL_DELETE|menu
 207	208	<eps>	MODEL_ADD|panel|Accessory\teacher\yonezawa.pmd|5.0,6.0,3.0|0.0,0.0,0.0|ON|mei
 208	209	<eps>	SYNTH_START|mei|mei_voice_normal|米澤朋子教授は、コミュニケーションメディア科学や擬人化システムの研究をされています。ヒューマンエージェントインタラクションなどの講義を担当しており、とても優しいお姉さんです。
 209	2	SYNTH_EVENT_STOP|mei	MODEL_DELETE|panel
@@ -308,19 +308,19 @@
 # 0221-0240 居林
 
 1	221	RECOG_EVENT_STOP|田中	MODEL_DELETE|menu
-1	221	RECOG_EVENT_STOP|田中、誰	MODEL_DELETE|menu
+1	221	RECOG_EVENT_STOP|田中,誰	MODEL_DELETE|menu
 221	222	<eps>	MODEL_ADD|panel|Accessory\teacher\tanaka.pmd|5.0,6.0,3.0|0.0,0.0,0.0|ON|mei
 222	223	<eps>	SYNTH_START|mei|mei_voice_normal|田中しげのり教授。専門は知的情報処理です。関西大学の卒業生で、ベンチャー企業の運営もしておられます。
 223	2	SYNTH_EVENT_STOP|mei	MODEL_DELETE|panel
 
 1	224	RECOG_EVENT_STOP|岡田	MODEL_DELETE|menu
-1	224	RECOG_EVENT_STOP|岡田、誰	MODEL_DELETE|menu
+1	224	RECOG_EVENT_STOP|岡田,誰	MODEL_DELETE|menu
 224	225	<eps>	MODEL_ADD|panel|Accessory\teacher\okada.pmd|5.0,6.0,3.0|0.0,0.0,0.0|ON|mei
 225	226	<eps>	SYNTH_START|mei|mei_voice_normal|岡田ともゆき教授。専門はメディア論と文化社会学です。お茶目なおっちゃんです。
 226	2	SYNTH_EVENT_STOP|mei	MODEL_DELETE|panel
 
 1	227	RECOG_EVENT_STOP|浅野	MODEL_DELETE|menu
-1	227	RECOG_EVENT_STOP|浅野、誰	MODEL_DELETE|menu
+1	227	RECOG_EVENT_STOP|浅野,誰	MODEL_DELETE|menu
 227	228	<eps>	MODEL_ADD|panel|Accessory\teacher\asano.pmd|5.0,6.0,3.0|0.0,0.0,0.0|ON|mei
 228	229	<eps>	SYNTH_START|mei|mei_voice_normal|浅野あきら教授。専門は画像科学、感性科学、色彩学です。多趣味なかたです。
 229	2	SYNTH_EVENT_STOP|mei	MODEL_DELETE|panel
@@ -413,13 +413,13 @@
 
 # 文化系サークル
 308	310	KEY|1	MODEL_ADD|panel3|Accessory\circle\banditz.pmd|5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
-308	310	RECOG_EVENT_STOP|banditz	MODEL_ADD|panel3|Accessory\circle\banditz.pmd|5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
+308	310	RECOG_EVENT_STOP|Ｂａｎｄｉｔｚ 	MODEL_ADD|panel3|Accessory\circle\banditz.pmd|5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 308	310	RECOG_EVENT_STOP|軽音	MODEL_ADD|panel3|Accessory\circle\banditz.pmd|5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 310	311	<eps>	MODEL_DELETE|panel2
 311	386	<eps>	SYNTH_START|mei|mei_voice_normal|バンディッツは軽音楽サークルです。月に一回ほど定期ライブをおこなっています。
 
 308	312	KEY|2	MODEL_ADD|panel3|Accessory\circle\gccc.pmd|5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
-308	312	RECOG_EVENT_STOP|GCCC	MODEL_ADD|panel3|Accessory\circle\gccc.pmd|5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
+308	312	RECOG_EVENT_STOP|ＧＣＣＣ	MODEL_ADD|panel3|Accessory\circle\gccc.pmd|5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 308	312	RECOG_EVENT_STOP|ゲーム	MODEL_ADD|panel3|Accessory\circle\gccc.pmd|5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 312	313	<eps>	MODEL_DELETE|panel2
 313	386	<eps>	SYNTH_START|mei|mei_voice_normal|GCCCはゲーム制作サークルです。プログラミング、グラフィック、作曲などの講習をおこない、ゲームを制作しています。
@@ -431,33 +431,33 @@
 315	386	<eps>	SYNTH_START|mei|mei_voice_normal|アイリスは写真サークルです。
 
 308	316	KEY|4	MODEL_ADD|panel3|Accessory\circle\josai.pmd|5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
-308	316	RECOG_EVENT_STOP|じょうさい	MODEL_ADD|panel3|Accessory\circle\josai.pmd|5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
+308	316	RECOG_EVENT_STOP|情祭	MODEL_ADD|panel3|Accessory\circle\josai.pmd|5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 316	317	<eps>	MODEL_DELETE|panel2
 317	386	<eps>	SYNTH_START|mei|mei_voice_normal|総合情報学部祭典実行委員会、略して情祭では、高槻キャンパス祭、統一祭での管理、運営をしています。毎年みんなに楽しんでもらうために、一体感を大事にして重大な役目をおっています。サークルとしての合宿やイベントも多数あります。
 
 308	318	KEY|5	MODEL_ADD|panel3|Accessory\circle\ktb.pmd|5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
-308	318	RECOG_EVENT_STOP|KTB	MODEL_ADD|panel3|Accessory\circle\ktb.pmd|5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
+308	318	RECOG_EVENT_STOP|ＫＴＢ	MODEL_ADD|panel3|Accessory\circle\ktb.pmd|5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 308	318	RECOG_EVENT_STOP|放送局	MODEL_ADD|panel3|Accessory\circle\ktb.pmd|5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 308	318	RECOG_EVENT_STOP|音声	MODEL_ADD|panel3|Accessory\circle\ktb.pmd|5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 318	319	<eps>	MODEL_DELETE|panel2
 319	386	<eps>	SYNTH_START|mei|mei_voice_normal|KTBは放送局です。番組放送や映像制作をおこなっています。
 
 308	320	KEY|6	MODEL_ADD|panel3|Accessory\circle\mcs.pmd|5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
-308	320	RECOG_EVENT_STOP|MCS	MODEL_ADD|panel3|Accessory\circle\mcs.pmd|5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
+308	320	RECOG_EVENT_STOP|ＭＣＳ	MODEL_ADD|panel3|Accessory\circle\mcs.pmd|5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 308	320	RECOG_EVENT_STOP|映像	MODEL_ADD|panel3|Accessory\circle\mcs.pmd|5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 308	320	RECOG_EVENT_STOP|ボランティア	MODEL_ADD|panel3|Accessory\circle\mcs.pmd|5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 320	321	<eps>	MODEL_DELETE|panel2
 321	386	<eps>	SYNTH_START|mei|mei_voice_normal|MCSは映像系のボランティア団体です。
 
 308	322	KEY|7	MODEL_ADD|panel3|Accessory\circle\sjm.pmd|5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
-308	322	RECOG_EVENT_STOP|SJM	MODEL_ADD|panel3|Accessory\circle\sjm.pmd|5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
+308	322	RECOG_EVENT_STOP|ＳＪＭ	MODEL_ADD|panel3|Accessory\circle\sjm.pmd|5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 308	322	RECOG_EVENT_STOP|映像制作	MODEL_ADD|panel3|Accessory\circle\sjm.pmd|5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 322	323	<eps>	MODEL_DELETE|panel2
 323	386	<eps>	SYNTH_START|mei|mei_voice_normal|SJMは映像制作団体です。
 
 308	324	KEY|8	MODEL_ADD|panel3|Accessory\circle\souken.pmd|5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
-308	324	RECOG_EVENT_STOP|そうさくけんきゅうかい	MODEL_ADD|panel3|Accessory\circle\souken.pmd|5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
-308	324	RECOG_EVENT_STOP|そうけん	MODEL_ADD|panel3|Accessory\circle\souken.pmd|5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
+308	324	RECOG_EVENT_STOP|創作研究会	MODEL_ADD|panel3|Accessory\circle\souken.pmd|5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
+308	324	RECOG_EVENT_STOP|創研	MODEL_ADD|panel3|Accessory\circle\souken.pmd|5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 308	324	RECOG_EVENT_STOP|イラスト	MODEL_ADD|panel3|Accessory\circle\souken.pmd|5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 308	324	RECOG_EVENT_STOP|漫画	MODEL_ADD|panel3|Accessory\circle\souken.pmd|5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 324	325	<eps>	MODEL_DELETE|panel2
@@ -470,7 +470,7 @@
 327	386	<eps>	SYNTH_START|mei|mei_voice_normal|ボカリーズはアカペラサークルです。毎週きんようびにテラスで集まって、みんなで歌の練習をしたりしています。新歓ライブ、クリスマスライブなど、イベントも多数です。高槻祭だけでなく統一祭などでも活躍しています。
 
 308	328	KEY|0	MODEL_ADD|panel3|Accessory\circle\yorozu.pmd|5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
-308	328	RECOG_EVENT_STOP|よろずえまき	MODEL_ADD|panel3|Accessory\circle\yorozu.pmd|5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
+308	328	RECOG_EVENT_STOP|万絵巻	MODEL_ADD|panel3|Accessory\circle\yorozu.pmd|5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 308	328	RECOG_EVENT_STOP|劇団	MODEL_ADD|panel3|Accessory\circle\yorozu.pmd|5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 308	328	RECOG_EVENT_STOP|演劇	MODEL_ADD|panel3|Accessory\circle\yorozu.pmd|5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 328	329	<eps>	MODEL_DELETE|panel2
@@ -479,6 +479,7 @@
 #体育系サークル・部活
 330	331	KEY|1	MODEL_ADD|panel3|Accessory\circle\aikido.pmd|-5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 330	331	RECOG_EVENT_STOP|合気道	MODEL_ADD|panel3|Accessory\circle\aikido.pmd|-5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
+330	331	RECOG_EVENT_STOP|総情合氣	MODEL_ADD|panel3|Accessory\circle\aikido.pmd|-5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 331	332	<eps>	MODEL_DELETE|panel1
 332	385	<eps>	SYNTH_START|mei|mei_voice_normal|そうじょうあいきは、高槻市にある道場の稽古に参加している合気道サークルです。社会人の方々とも交流しながら稽古に励んでいます。
 
@@ -523,19 +524,19 @@
 346	385	<eps>	SYNTH_START|mei|mei_voice_normal|ソレイユは、ソフトテニスサークルです。すいようときんようの週二回あつまって練習をしています。経験者も初心者も、どちらも楽しんで活動をしています。年間イベントも多数行われています。
 
 330	347	KEY|9	MODEL_ADD|panel3|Accessory\circle\tbc.pmd|-5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
-330	347	RECOG_EVENT_STOP|ティービーシー	MODEL_ADD|panel3|Accessory\circle\tbc.pmd|-5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
+330	347	RECOG_EVENT_STOP|ＴＢＣ	MODEL_ADD|panel3|Accessory\circle\tbc.pmd|-5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 330	347	RECOG_EVENT_STOP|バドミントン	MODEL_ADD|panel3|Accessory\circle\tbc.pmd|-5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 347	348	<eps>	MODEL_DELETE|panel1
 348	385	<eps>	SYNTH_START|mei|mei_voice_normal|TBCは高槻のバトミントンサークルです。毎週四回の練習を行っています。部員数は200人に及ぶ巨大サークルです。年間イベントも多数あります、長期休暇の遠方への旅行などもあり、サークル内の絆がとても深いです。
 
 330	349	KEY|0	MODEL_ADD|panel3|Accessory\circle\tltc.pmd|-5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
-330	349	RECOG_EVENT_STOP|ティーエルティーシー	MODEL_ADD|panel3|Accessory\circle\tltc.pmd|-5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
+330	349	RECOG_EVENT_STOP|ＴＬＴＣ	MODEL_ADD|panel3|Accessory\circle\tltc.pmd|-5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 330	349	RECOG_EVENT_STOP|テニス	MODEL_ADD|panel3|Accessory\circle\tltc.pmd|-5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 349	350	<eps>	MODEL_DELETE|panel1
 350	385	<eps>	SYNTH_START|mei|mei_voice_normal|TLTCは高槻のテニスサークルです。テニスコートですいようびとどようびにみんなで練習をおこなっています。かようびときんようびにはコート開放で、各自で自由に練習を行うこともできます。
 
 330	351	KEY|^	MODEL_ADD|panel3|Accessory\circle\tsc.pmd|-5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
-330	351	RECOG_EVENT_STOP|ティーエスシー	MODEL_ADD|panel3|Accessory\circle\tsc.pmd|-5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
+330	351	RECOG_EVENT_STOP|ＴＳＣ	MODEL_ADD|panel3|Accessory\circle\tsc.pmd|-5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 330	351	RECOG_EVENT_STOP|サッカー	MODEL_ADD|panel3|Accessory\circle\tsc.pmd|-5.0,2.5,2.6|0.0,0.0,0.0|ON|mei
 351	352	<eps>	MODEL_DELETE|panel1
 352	385	<eps>	SYNTH_START|mei|mei_voice_normal|TSCはサッカーサークルです。毎週すいようびに授業が終わったあと、練習をしています。大会や合宿にも参加しています。サッカーを楽しみたい人や本気で取り組みたい人、どちらも楽しめるサークルです。
@@ -551,10 +552,14 @@
 392	393	MODEL_EVENT_ADD|panel1	MODEL_ADD|panel2|Accessory\answer\no.pmd|7.0,5.0,2.5|0.0,0.0,0.0|ON|mei
 393	394	KEY|Y	MODEL_DELETE|panel2
 393	394	RECOG_EVENT_STOP|はい	MODEL_DELETE|panel2
+393	394	RECOG_EVENT_STOP|あります	MODEL_DELETE|panel2
+393	394	RECOG_EVENT_STOP|ある	MODEL_DELETE|panel2
 394	395	MODEL_EVENT_DELETE|panel2	MODEL_DELETE|panel1
 395	301	<eps>	SYNTH_START|mei|mei_voice_normal|文化系と体育系、どちらが気になりますか？
 393	397	KEY|N	MODEL_DELETE|panel1
 393	397	RECOG_EVENT_STOP|いいえ	MODEL_DELETE|panel1
+393	397	RECOG_EVENT_STOP|ない	MODEL_DELETE|panel1
+393	397	RECOG_EVENT_STOP|ありません	MODEL_DELETE|panel1
 397	398	MODEL_EVENT_DELETE|panel1	MODEL_DELETE|panel2
 398	399	MODEL_EVENT_DELETE|panel2	MODEL_ADD|menu|Accessory\menu\menu.pmd|0.0,-4.5,0.0|0.0,0.0,0.0|ON|mei
 399	400	MODEL_EVENT_ADD|menu	MOTION_ADD|mei|action|Motion\mei_bye\mei_bye.vmd|PART|ONCE
