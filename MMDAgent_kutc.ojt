@@ -1,11 +1,12 @@
 # number of voices
 5
 # voice names
-Voice\mei\mei_normal.htsvoice
-Voice\mei\mei_angry.htsvoice
-Voice\mei\mei_bashful.htsvoice
-Voice\mei\mei_happy.htsvoice
-Voice\mei\mei_sad.htsvoice
+Voice\masa\mei_normal.htsvoice
+Voice\masa\mei_angry.htsvoice
+Voice\masa\mei_bashful.htsvoice
+Voice\masa\mei_happy.htsvoice
+Voice\masa\mei_sad.htsvoice
+
 # number of speaking styles
 9
 # speaking style names, interpolation weight, and synthesis parameter

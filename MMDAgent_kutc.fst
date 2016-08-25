@@ -143,7 +143,8 @@
 # 0011-0020 初期化
 
 0	11	<eps>	MODEL_ADD|bootscreen|Accessory\bootscreen\bootscreen.pmd|0.0,12.85,17.6|0.0,0.0,0.0|OFF
-11	12	MODEL_EVENT_ADD|bootscreen	MODEL_ADD|mei|Model\mei\mei.pmd|0.0,0.0,-14.0
+#11	12	MODEL_EVENT_ADD|bootscreen	MODEL_ADD|mei|Model\mei\mei.pmd|0.0,0.0,-14.0
+11	12	MODEL_EVENT_ADD|bootscreen	MODEL_ADD|mei|Model\mitum\mitu.pmd|0.0,0.0,-14.0
 12	13	<eps>	MODEL_ADD|menu|Accessory\menu\menu.pmd|0.0,-4.5,0.0|0.0,0.0,0.0|ON|mei
 13	14	<eps>	MOTION_ADD|menu|rotate|Motion\menu_rotation\menu_rotation.vmd|FULL|LOOP|OFF|OFF
 14	15	<eps>	STAGE|Stage\buildingKUTC\stage.pmd

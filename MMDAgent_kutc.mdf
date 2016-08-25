@@ -116,7 +116,7 @@ shadow_mapping_light_first=true
 
 # Comment
 
-display_comment_time=1.0
+display_comment_time=0.0
 
 # Model
 
