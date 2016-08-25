@@ -285,21 +285,28 @@
 
 1	201	RECOG_EVENT_STOP|古賀	MODEL_DELETE|menu
 1	201	RECOG_EVENT_STOP|古賀、誰	MODEL_DELETE|menu
-201	202	<eps>	MODEL_ADD|panel|Accessory\teacher\kogaga.pmd|5.0,6.0,1.0|0.0,0.0,0.0|ON|mei
+201	202	<eps>	MODEL_ADD|panel|Accessory\teacher\kogaga.pmd|5.0,6.0,0.2|0.0,0.0,0.0|ON|mei
 202	203	<eps>	SYNTH_START|mei|mei_voice_normal|古賀広志教授は、経営情報システム論の研究をされています。情報と職業などの講義を担当しており、とても優しいおっちゃんです。
-203	2	SYNTH_EVENT_STOP|mei	MODEL_DELETE|panel
+203	204	SYNTH_EVENT_STOP|mei	MODEL_DELETE|panel
+204	205	<eps>	MODEL_ADD|menu|Accessory\menu\menu.pmd|0.0,-4.5,0.0|0.0,0.0,0.0|ON|mei
+205	2	<eps>	MOTION_ADD|menu|rotate|Motion\menu_rotation\menu_rotation.vmd|FULL|LOOP|OFF
 
-1	204	RECOG_EVENT_STOP|松下	MODEL_DELETE|menu
-1	204	RECOG_EVENT_STOP|松下、誰	MODEL_DELETE|menu
-204	205	<eps>	MODEL_ADD|panel|Accessory\teacher\matsushita.pmd|5.0,6.0,3.0|0.0,0.0,0.0|ON|mei
-205	206	<eps>	SYNTH_START|mei|mei_voice_normal|松下光範教授は、インタラクティブシステムデザインの研究をされています。インタラクティブアート実習などの講義を担当しており、とても優しいおっちゃんです。
-206	2	SYNTH_EVENT_STOP|mei	MODEL_DELETE|panel
+1	206	RECOG_EVENT_STOP|松下	MODEL_DELETE|menu
+1	206	RECOG_EVENT_STOP|松下、誰	MODEL_DELETE|menu
+206	207	<eps>	MODEL_ADD|panel|Accessory\teacher\matsushita.pmd|5.0,6.0,3.0|0.0,0.0,0.0|ON|mei
+207	208	<eps>	SYNTH_START|mei|mei_voice_normal|松下光範教授は、インタラクティブシステムデザインの研究をされています。インタラクティブアート実習などの講義を担当しており、とても優しいおっちゃんです。
+208	209	SYNTH_EVENT_STOP|mei	MODEL_DELETE|panel
+209	210	<eps>	MODEL_ADD|menu|Accessory\menu\menu.pmd|0.0,-4.5,0.0|0.0,0.0,0.0|ON|mei
+210	2	<eps>	MOTION_ADD|menu|rotate|Motion\menu_rotation\menu_rotation.vmd|FULL|LOOP|OFF
 
-1	207	RECOG_EVENT_STOP|米沢	MODEL_DELETE|menu
-1	207	RECOG_EVENT_STOP|米沢、誰	MODEL_DELETE|menu
-207	208	<eps>	MODEL_ADD|panel|Accessory\teacher\yonezawa.pmd|5.0,6.0,3.0|0.0,0.0,0.0|ON|mei
-208	209	<eps>	SYNTH_START|mei|mei_voice_normal|米澤朋子教授は、コミュニケーションメディア科学や擬人化システムの研究をされています。ヒューマンエージェントインタラクションなどの講義を担当しており、とても優しいお姉さんです。
-209	2	SYNTH_EVENT_STOP|mei	MODEL_DELETE|panel
+
+1	211	RECOG_EVENT_STOP|米沢	MODEL_DELETE|menu
+1	211	RECOG_EVENT_STOP|米沢、誰	MODEL_DELETE|menu
+211	212	<eps>	MODEL_ADD|panel|Accessory\teacher\yonezawa.pmd|5.0,6.0,3.0|0.0,0.0,0.0|ON|mei
+212	213	<eps>	SYNTH_START|mei|mei_voice_normal|米澤朋子教授は、コミュニケーションメディア科学や擬人化システムの研究をされています。ヒューマンエージェントインタラクションなどの講義を担当しており、とても優しいお姉さんです。
+213	214	SYNTH_EVENT_STOP|mei	MODEL_DELETE|panel
+214	215	<eps>	MODEL_ADD|menu|Accessory\menu\menu.pmd|0.0,-4.5,0.0|0.0,0.0,0.0|ON|mei
+215	2	<eps>	MOTION_ADD|menu|rotate|Motion\menu_rotation\menu_rotation.vmd|FULL|LOOP|OFF
 
 # 0221-0240 居林
 
@@ -307,19 +314,25 @@
 1	221	RECOG_EVENT_STOP|田中、誰	MODEL_DELETE|menu
 221	222	<eps>	MODEL_ADD|panel|Accessory\teacher\tanaka.pmd|5.0,6.0,3.0|0.0,0.0,0.0|ON|mei
 222	223	<eps>	SYNTH_START|mei|mei_voice_normal|田中しげのり教授。専門は知的情報処理です。関西大学の卒業生で、ベンチャー企業の運営もしておられます。
-223	2	SYNTH_EVENT_STOP|mei	MODEL_DELETE|panel
+223	224	SYNTH_EVENT_STOP|mei	MODEL_DELETE|panel
+224	225	<eps>	MODEL_ADD|menu|Accessory\menu\menu.pmd|0.0,-4.5,0.0|0.0,0.0,0.0|ON|mei
+225	2	<eps>	MOTION_ADD|menu|rotate|Motion\menu_rotation\menu_rotation.vmd|FULL|LOOP|OFF
 
-1	224	RECOG_EVENT_STOP|岡田	MODEL_DELETE|menu
-1	224	RECOG_EVENT_STOP|岡田、誰	MODEL_DELETE|menu
-224	225	<eps>	MODEL_ADD|panel|Accessory\teacher\okada.pmd|5.0,6.0,3.0|0.0,0.0,0.0|ON|mei
-225	226	<eps>	SYNTH_START|mei|mei_voice_normal|岡田ともゆき教授。専門はメディア論と文化社会学です。お茶目なおっちゃんです。
-226	2	SYNTH_EVENT_STOP|mei	MODEL_DELETE|panel
+1	226	RECOG_EVENT_STOP|岡田	MODEL_DELETE|menu
+1	226	RECOG_EVENT_STOP|岡田、誰	MODEL_DELETE|menu
+226	227	<eps>	MODEL_ADD|panel|Accessory\teacher\okada.pmd|5.0,6.0,3.0|0.0,0.0,0.0|ON|mei
+227	228	<eps>	SYNTH_START|mei|mei_voice_normal|岡田ともゆき教授。専門はメディア論と文化社会学です。お茶目なおっちゃんです。
+228	229	SYNTH_EVENT_STOP|mei	MODEL_DELETE|panel
+229	230	<eps>	MODEL_ADD|menu|Accessory\menu\menu.pmd|0.0,-4.5,0.0|0.0,0.0,0.0|ON|mei
+230	2	<eps>	MOTION_ADD|menu|rotate|Motion\menu_rotation\menu_rotation.vmd|FULL|LOOP|OFF
 
-1	227	RECOG_EVENT_STOP|浅野	MODEL_DELETE|menu
-1	227	RECOG_EVENT_STOP|浅野、誰	MODEL_DELETE|menu
-227	228	<eps>	MODEL_ADD|panel|Accessory\teacher\asano.pmd|5.0,6.0,3.0|0.0,0.0,0.0|ON|mei
-228	229	<eps>	SYNTH_START|mei|mei_voice_normal|浅野あきら教授。専門は画像科学、感性科学、色彩学です。多趣味なかたです。
-229	2	SYNTH_EVENT_STOP|mei	MODEL_DELETE|panel
+1	231	RECOG_EVENT_STOP|浅野	MODEL_DELETE|menu
+1	231	RECOG_EVENT_STOP|浅野、誰	MODEL_DELETE|menu
+231	232	<eps>	MODEL_ADD|panel|Accessory\teacher\asano.pmd|5.0,6.0,3.0|0.0,0.0,0.0|ON|mei
+232	233	<eps>	SYNTH_START|mei|mei_voice_normal|浅野あきら教授。専門は画像科学、感性科学、色彩学です。多趣味なかたです。
+233	234	SYNTH_EVENT_STOP|mei	MODEL_DELETE|panel
+234	235	<eps>	MODEL_ADD|menu|Accessory\menu\menu.pmd|0.0,-4.5,0.0|0.0,0.0,0.0|ON|mei
+235	2	<eps>	MOTION_ADD|menu|rotate|Motion\menu_rotation\menu_rotation.vmd|FULL|LOOP|OFF
 
 
 # 0241-0260 岩崎
@@ -327,24 +340,33 @@
 1	241	RECOG_EVENT_STOP|堀	MODEL_DELETE|menu
 241	242	<eps>	MODEL_ADD|panel|Accessory\teacher\hori.pmd|5.0,6.0,3.0|0.0,0.0,0.0|ON|mei
 242	243	<eps>	SYNTH_START|mei|mei_voice_normal|堀まさひろ教授。大阪大学出身です。専門は知識情報学でユーザーにとって使いやすいとはなにかを研究しておられます。彼の受け持っているWeb情報システム論は、持ち込みありのテストのためぜひ受けてみてください。
-243	2	SYNTH_EVENT_STOP|mei	MODEL_DELETE|panel
+243	244	SYNTH_EVENT_STOP|mei	MODEL_DELETE|panel
+244	245	<eps>	MODEL_ADD|menu|Accessory\menu\menu.pmd|0.0,-4.5,0.0|0.0,0.0,0.0|ON|mei
+245	2	<eps>	MOTION_ADD|menu|rotate|Motion\menu_rotation\menu_rotation.vmd|FULL|LOOP|OFF
 
-1	244	RECOG_EVENT_STOP|森尾	MODEL_DELETE|menu
-244	245	<eps>	MODEL_ADD|panel|Accessory\teacher\morio.pmd|5.0,6.0,3.0|0.0,0.0,0.0|ON|mei
-245	246	<eps>	SYNTH_START|mei|mei_voice_normal|森尾ひろあき教授。フロリダアトランティック大学出身です。専門は社会心理学で、社会の中での人間の心の動きを解き明かしていく、ということをされています。彼の受け持っている、インターネットと心理という授業での、人間は顔が全て、イケメンは全てにおいて得をする、というビデオには衝撃を受けました。気になるかたはぜひ関西大学へ。
-246	2	SYNTH_EVENT_STOP|mei	MODEL_DELETE|panel
+1	246	RECOG_EVENT_STOP|森尾	MODEL_DELETE|menu
+246	247	<eps>	MODEL_ADD|panel|Accessory\teacher\morio.pmd|5.0,6.0,3.0|0.0,0.0,0.0|ON|mei
+247	248	<eps>	SYNTH_START|mei|mei_voice_normal|森尾ひろあき教授。フロリダアトランティック大学出身です。専門は社会心理学で、社会の中での人間の心の動きを解き明かしていく、ということをされています。彼の受け持っている、インターネットと心理という授業での、人間は顔が全て、イケメンは全てにおいて得をする、というビデオには衝撃を受けました。気になるかたはぜひ関西大学へ。
+248	249	SYNTH_EVENT_STOP|mei	MODEL_DELETE|panel
+249	250	<eps>	MODEL_ADD|menu|Accessory\menu\menu.pmd|0.0,-4.5,0.0|0.0,0.0,0.0|ON|mei
+250	2	<eps>	MOTION_ADD|menu|rotate|Motion\menu_rotation\menu_rotation.vmd|FULL|LOOP|OFF
 
-1	247	RECOG_EVENT_STOP|荻野	MODEL_DELETE|menu
-247	248	<eps>	MODEL_ADD|panel|Accessory\teacher\ogino.pmd|5.0,6.0,3.0|0.0,0.0,0.0|ON|mei
-248	249	<eps>	SYNTH_START|mei|mei_voice_normal|荻野まさき教授。大阪大学出身です。認知ロボティックスを専門としており、人はどのように認知能力を成長の過程で身につけていくのかを研究しておられます。コンピューターの言語という必修授業を担当しているため、覚えておきましょう。
-249	2	SYNTH_EVENT_STOP|mei	MODEL_DELETE|panel
+1	251	RECOG_EVENT_STOP|荻野	MODEL_DELETE|menu
+251	252	<eps>	MODEL_ADD|panel|Accessory\teacher\ogino.pmd|5.0,6.0,3.0|0.0,0.0,0.0|ON|mei
+252	253	<eps>	SYNTH_START|mei|mei_voice_normal|荻野まさき教授。大阪大学出身です。認知ロボティックスを専門としており、人はどのように認知能力を成長の過程で身につけていくのかを研究しておられます。コンピューターの言語という必修授業を担当しているため、覚えておきましょう。
+253	254	SYNTH_EVENT_STOP|mei	MODEL_DELETE|panel
+254	255	<eps>	MODEL_ADD|menu|Accessory\menu\menu.pmd|0.0,-4.5,0.0|0.0,0.0,0.0|ON|mei
+255	2	<eps>	MOTION_ADD|menu|rotate|Motion\menu_rotation\menu_rotation.vmd|FULL|LOOP|OFF
+
 
 # 0261-0280 鈴木雄
 
 1	262	RECOG_EVENT_STOP|加藤	MODEL_DELETE|menu
 262	263	<eps>	MODEL_ADD|panel|Accessory\teacher\kato.pmd|5.0,6.0,3.0|0.0,0.0,0.0|ON|mei
 263	264	<eps>	SYNTH_START|mei|mei_voice_normal|加藤隆教授。４月１日生まれ、マサチューセッツ大学心理学科を卒業され、専門領域は、認知社会心理学です。キーワードとして、ヒューマンインタフェース、認知心理学、認知と感情のかかわり、が、あげられます。そして、ダジャレ大好きです。
-264	2	SYNTH_EVENT_STOP|mei	MODEL_DELETE|panel
+264	265	SYNTH_EVENT_STOP|mei	MODEL_DELETE|panel
+265	266	<eps>	MODEL_ADD|menu|Accessory\menu\menu.pmd|0.0,-4.5,0.0|0.0,0.0,0.0|ON|mei
+266	2	<eps>	MOTION_ADD|menu|rotate|Motion\menu_rotation\menu_rotation.vmd|FULL|LOOP|OFF
 
 1	1262	RECOG_EVENT_STOP|桑門	MODEL_DELETE|menu
 1262	1263	<eps>	MODEL_ADD|panel|Accessory\teacher\kuwakado.pmd|5.0,6.0,3.0|0.0,0.0,0.0|ON|mei
@@ -357,8 +379,9 @@
 1269	1270	SYNTH_EVENT_STOP|mei	MOTION_CHANGE|mei|base|Motion\mei_guide\mei_guide_happy.vmd
 1270	1271	<eps>	SYNTH_START|mei|mei_voice_normal|そして、Ｃ言語と言ったらこの人です。
 1271	1272	SYNTH_EVENT_STOP|mei	MODEL_DELETE|panel
-1272	1273	<eps>	MOTION_CHANGE|mei|base|Motion\mei_wait\mei_wait.vmd
-1273	2	<eps>	MOTION_ADD|menu|rotate|Motion\menu_rotation\menu_rotation.vmd|FULL|LOOP|OFF
+1272	1273	<eps>	MODEL_ADD|menu|Accessory\menu\menu.pmd|0.0,-4.5,0.0|0.0,0.0,0.0|ON|mei
+1273	1274	<eps>	MOTION_CHANGE|mei|base|Motion\mei_wait\mei_wait.vmd
+1274	2	<eps>	MOTION_ADD|menu|rotate|Motion\menu_rotation\menu_rotation.vmd|FULL|LOOP|OFF
 
 1	2262	RECOG_EVENT_STOP|桑原	MODEL_DELETE|menu
 2262	2263	<eps>	MODEL_ADD|panel|Accessory\teacher\kuwabara.pmd|5.0,6.0,3.0|0.0,0.0,0.0|ON|mei
@@ -371,25 +394,33 @@
 2269	2270	SYNTH_EVENT_STOP|mei	MOTION_CHANGE|mei|base|Motion\mei_guide\mei_guide_happy.vmd
 2270	2271	<eps>	SYNTH_START|mei|mei_voice_normal|そして、この学部の学部長です。
 2271	2272	SYNTH_EVENT_STOP|mei	MODEL_DELETE|panel
-2272	2273	<eps>	MOTION_CHANGE|mei|base|Motion\mei_wait\mei_wait.vmd
-2273	2	<eps>	MOTION_ADD|menu|rotate|Motion\menu_rotation\menu_rotation.vmd|FULL|LOOP|OFF
+2272	2273	<eps>	MODEL_ADD|menu|Accessory\menu\menu.pmd|0.0,-4.5,0.0|0.0,0.0,0.0|ON|mei
+2273	2274	<eps>	MOTION_CHANGE|mei|base|Motion\mei_wait\mei_wait.vmd
+2274	2	<eps>	MOTION_ADD|menu|rotate|Motion\menu_rotation\menu_rotation.vmd|FULL|LOOP|OFF
 
 # 0281-0300 鈴木聖
 
 1	281	RECOG_EVENT_STOP|林	MODEL_DELETE|menu
 281	282	<eps>	MODEL_ADD|panel|Accessory\teacher\hayashi.pmd|5.0,6.0,3.0|0.0,0.0,0.0|ON|mei
 282	283	<eps>	SYNTH_START|mei|mei_voice_normal|林たけふみ教授。視覚情報処理や、情報の可視化についての専門家です。　また、ＣＧについてのプロです。　授業は生徒思いで優しいです。
-283	2	SYNTH_EVENT_STOP|mei	MODEL_DELETE|panel
+283	284	SYNTH_EVENT_STOP|mei	MODEL_DELETE|panel
+284	285	<eps>	MODEL_ADD|menu|Accessory\menu\menu.pmd|0.0,-4.5,0.0|0.0,0.0,0.0|ON|mei
+285	2	<eps>	MOTION_ADD|menu|rotate|Motion\menu_rotation\menu_rotation.vmd|FULL|LOOP|OFF
 
-1	284	RECOG_EVENT_STOP|松本	MODEL_DELETE|menu
-284	285	<eps>	MODEL_ADD|panel|Accessory\teacher\matsumoto.pmd|5.0,6.0,3.0|0.0,0.0,0.0|ON|mei
-285	286	<eps>	SYNTH_START|mei|mei_voice_normal|松本わたる教授。調査データの収集と解析の方法論についての専門家です。データや分析についてかなり詳しいです。東大出身です。
-286	2	SYNTH_EVENT_STOP|mei	MODEL_DELETE|panel
+1	286	RECOG_EVENT_STOP|松本	MODEL_DELETE|menu
+286	287	<eps>	MODEL_ADD|panel|Accessory\teacher\matsumoto.pmd|5.0,6.0,3.0|0.0,0.0,0.0|ON|mei
+287	288	<eps>	SYNTH_START|mei|mei_voice_normal|松本わたる教授。調査データの収集と解析の方法論についての専門家です。データや分析についてかなり詳しいです。東大出身です。
+288	289	SYNTH_EVENT_STOP|mei	MODEL_DELETE|panel
+289	290	<eps>	MODEL_ADD|menu|Accessory\menu\menu.pmd|0.0,-4.5,0.0|0.0,0.0,0.0|ON|mei
+291	2	<eps>	MOTION_ADD|menu|rotate|Motion\menu_rotation\menu_rotation.vmd|FULL|LOOP|OFF
 
-1	287	RECOG_EVENT_STOP|喜多	MODEL_DELETE|menu
-287	288	<eps>	MODEL_ADD|panel|Accessory\teacher\kita.pmd|5.0,6.0,3.0|0.0,0.0,0.0|ON|mei
-288	289	<eps>	SYNTH_START|mei|mei_voice_normal|喜多ちぐさ教授。インターネット史やコンピューティングの歴史についての専門家です。元ディレクターでテレビや制作の裏側を知る人であるため、テレビ業界について興味があるなら喜多先生についていくべきです。
-289	2	SYNTH_EVENT_STOP|mei	MODEL_DELETE|panel
+1	292	RECOG_EVENT_STOP|喜多	MODEL_DELETE|menu
+292	293	<eps>	MODEL_ADD|panel|Accessory\teacher\kita.pmd|5.0,6.0,3.0|0.0,0.0,0.0|ON|mei
+293	294	<eps>	SYNTH_START|mei|mei_voice_normal|喜多ちぐさ教授。インターネット史やコンピューティングの歴史についての専門家です。元ディレクターでテレビや制作の裏側を知る人であるため、テレビ業界について興味があるなら喜多先生についていくべきです。
+294	295	SYNTH_EVENT_STOP|mei	MODEL_DELETE|panel
+295	296	<eps>	MODEL_ADD|menu|Accessory\menu\menu.pmd|0.0,-4.5,0.0|0.0,0.0,0.0|ON|mei
+296	2	<eps>	MOTION_ADD|menu|rotate|Motion\menu_rotation\menu_rotation.vmd|FULL|LOOP|OFF
+
 
 # 301-400 サークル
 1	301	RECOG_EVENT_STOP|サークル	SYNTH_START|mei|mei_voice_normal|文化系と体育系、どちらが気になりますか？
