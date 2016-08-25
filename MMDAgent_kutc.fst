@@ -290,21 +290,29 @@
 
 1	201	RECOG_EVENT_STOP|古賀	MODEL_DELETE|menu
 1	201	RECOG_EVENT_STOP|古賀,誰	MODEL_DELETE|menu
-201	202	<eps>	MODEL_ADD|panel|Accessory\teacher\kogaga.pmd|5.0,6.0,1.0|0.0,0.0,0.0|ON|mei
+201	202	<eps>	MODEL_ADD|panel|Accessory\teacher\kogaga.pmd|5.0,6.0,0.2|0.0,0.0,0.0|ON|mei
 202	203	<eps>	SYNTH_START|mei|mei_voice_normal|古賀広志教授は、経営情報システム論の研究をされています。情報と職業などの講義を担当しており、とても優しいおっちゃんです。
-203	2	SYNTH_EVENT_STOP|mei	MODEL_DELETE|panel
 
-1	204	RECOG_EVENT_STOP|松下	MODEL_DELETE|menu
-1	204	RECOG_EVENT_STOP|松下,誰	MODEL_DELETE|menu
-204	205	<eps>	MODEL_ADD|panel|Accessory\teacher\matsushita.pmd|5.0,6.0,3.0|0.0,0.0,0.0|ON|mei
-205	206	<eps>	SYNTH_START|mei|mei_voice_normal|松下光範教授は、インタラクティブシステムデザインの研究をされています。インタラクティブアート実習などの講義を担当しており、とても優しいおっちゃんです。
-206	2	SYNTH_EVENT_STOP|mei	MODEL_DELETE|panel
+203	204	SYNTH_EVENT_STOP|mei	MODEL_DELETE|panel
+204	205	<eps>	MODEL_ADD|menu|Accessory\menu\menu.pmd|0.0,-4.5,0.0|0.0,0.0,0.0|ON|mei
+205	2	<eps>	MOTION_ADD|menu|rotate|Motion\menu_rotation\menu_rotation.vmd|FULL|LOOP|OFF
 
-1	207	RECOG_EVENT_STOP|米沢	MODEL_DELETE|menu
-1	207	RECOG_EVENT_STOP|米沢,誰	MODEL_DELETE|menu
-207	208	<eps>	MODEL_ADD|panel|Accessory\teacher\yonezawa.pmd|5.0,6.0,3.0|0.0,0.0,0.0|ON|mei
-208	209	<eps>	SYNTH_START|mei|mei_voice_normal|米澤朋子教授は、コミュニケーションメディア科学や擬人化システムの研究をされています。ヒューマンエージェントインタラクションなどの講義を担当しており、とても優しいお姉さんです。
-209	2	SYNTH_EVENT_STOP|mei	MODEL_DELETE|panel
+1	206	RECOG_EVENT_STOP|松下	MODEL_DELETE|menu
+1	206	RECOG_EVENT_STOP|松下,誰	MODEL_DELETE|menu
+206	207	<eps>	MODEL_ADD|panel|Accessory\teacher\matsushita.pmd|5.0,6.0,3.0|0.0,0.0,0.0|ON|mei
+207	208	<eps>	SYNTH_START|mei|mei_voice_normal|松下光範教授は、インタラクティブシステムデザインの研究をされています。インタラクティブアート実習などの講義を担当しており、とても優しいおっちゃんです。
+208	209	SYNTH_EVENT_STOP|mei	MODEL_DELETE|panel
+209	210	<eps>	MODEL_ADD|menu|Accessory\menu\menu.pmd|0.0,-4.5,0.0|0.0,0.0,0.0|ON|mei
+210	2	<eps>	MOTION_ADD|menu|rotate|Motion\menu_rotation\menu_rotation.vmd|FULL|LOOP|OFF
+
+1	211	RECOG_EVENT_STOP|米澤	MODEL_DELETE|menu
+1	211	RECOG_EVENT_STOP|米澤,誰	MODEL_DELETE|menu
+211	212	<eps>	MODEL_ADD|panel|Accessory\teacher\yonezawa.pmd|5.0,6.0,3.0|0.0,0.0,0.0|ON|mei
+212	213	<eps>	SYNTH_START|mei|mei_voice_normal|米澤朋子教授は、コミュニケーションメディア科学や擬人化システムの研究をされています。ヒューマンエージェントインタラクションなどの講義を担当しており、とても優しいお姉さんです。
+213	214	SYNTH_EVENT_STOP|mei	MODEL_DELETE|panel
+214	215	<eps>	MODEL_ADD|menu|Accessory\menu\menu.pmd|0.0,-4.5,0.0|0.0,0.0,0.0|ON|mei
+215	2	<eps>	MOTION_ADD|menu|rotate|Motion\menu_rotation\menu_rotation.vmd|FULL|LOOP|OFF
+
 
 # 0221-0240 居林
 
