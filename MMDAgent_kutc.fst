@@ -169,16 +169,18 @@
 1	31	RECOG_EVENT_STOP|こんにちわ	SYNTH_START|mei|mei_voice_normal|こんにちは。
 1	31	RECOG_EVENT_STOP|おはよう	SYNTH_START|mei|mei_voice_normal|おはようございます。
 1	31	RECOG_EVENT_STOP|おはよう,ございます	SYNTH_START|mei|mei_voice_normal|おはようございます。
+1	31	RECOG_EVENT_STOP|おはようございます	SYNTH_START|mei|mei_voice_normal|おはようございます。
 1	31	RECOG_EVENT_STOP|こんばんは	SYNTH_START|mei|mei_voice_normal|こんばんは。
 1	31	RECOG_EVENT_STOP|こんばんわ	SYNTH_START|mei|mei_voice_normal|こんばんは。
+1	31	RECOG_EVENT_STOP|今晩は	SYNTH_START|mei|mei_voice_normal|こんばんは。
 31	32	<eps>	MOTION_ADD|mei|action|Motion\mei_greeting\mei_greeting.vmd|PART|ONCE
 32	2	SYNTH_EVENT_STOP|mei	<eps>
 
 # 0041-0050 自己紹介
 
-1	41	RECOG_EVENT_STOP|自己紹介	SYNTH_START|mei|mei_voice_normal|メイと言います。
-1	41	RECOG_EVENT_STOP|あなた,誰	SYNTH_START|mei|mei_voice_normal|メイと言います。
-1	41	RECOG_EVENT_STOP|君,誰	SYNTH_START|mei|mei_voice_normal|メイと言います。
+1	41	RECOG_EVENT_STOP|自己紹介	SYNTH_START|mei|mei_voice_normal|まつしたみつのりと言います。
+1	41	RECOG_EVENT_STOP|あなた,誰	SYNTH_START|mei|mei_voice_normal|まつしたみつのりと言います。
+1	41	RECOG_EVENT_STOP|君,誰	SYNTH_START|mei|mei_voice_normal|まつしたみつのりと言います。
 41	42	<eps>	MOTION_ADD|mei|action|Motion\mei_self_introduction\mei_self_introduction.vmd|PART|ONCE
 42	43	SYNTH_EVENT_STOP|mei	SYNTH_START|mei|mei_voice_normal|よろしくお願いします。
 43	2	SYNTH_EVENT_STOP|mei	<eps>
@@ -194,12 +196,14 @@
 53	54	<eps>	MOTION_CHANGE|mei|base|Motion\mei_guide\mei_guide_happy.vmd
 54	2	SYNTH_EVENT_STOP|mei	MOTION_CHANGE|mei|base|Motion\mei_wait\mei_wait.vmd
 
-# 0061-0070 褒め言葉
+# 0061-0070 褒める
 
 1	61	RECOG_EVENT_STOP|可愛い	VALUE_EVAL|random|LE|80
 1	61	RECOG_EVENT_STOP|かわいい	VALUE_EVAL|random|LE|80
 1	61	RECOG_EVENT_STOP|綺麗	VALUE_EVAL|random|LE|80
 1	61	RECOG_EVENT_STOP|きれい	VALUE_EVAL|random|LE|80
+1	61	RECOG_EVENT_STOP|かっこいい	VALUE_EVAL|random|LE|80
+1	61	RECOG_EVENT_STOP|イケメン	VALUE_EVAL|random|LE|80
 61	62	VALUE_EVENT_EVAL|random|LE|80|TRUE	SYNTH_START|mei|mei_voice_bashful|恥ずかしいです。
 61	62	VALUE_EVENT_EVAL|random|LE|80|FALSE	SYNTH_START|mei|mei_voice_bashful|ありがとう。
 62	63	<eps>	MOTION_ADD|mei|expression|Expression\mei_bashfulness\mei_bashfulness.vmd|PART|ONCE
@@ -308,7 +312,7 @@
 1	211	RECOG_EVENT_STOP|米澤	MODEL_DELETE|menu
 1	211	RECOG_EVENT_STOP|米澤,誰	MODEL_DELETE|menu
 211	212	<eps>	MODEL_ADD|panel|Accessory\teacher\yonezawa.pmd|5.0,6.0,3.0|0.0,0.0,0.0|ON|mei
-212	213	<eps>	SYNTH_START|mei|mei_voice_normal|米澤朋子教授は、コミュニケーションメディア科学や擬人化システムの研究をされています。ヒューマンエージェントインタラクションなどの講義を担当しており、とても優しいお姉さんです。
+212	213	<eps>	SYNTH_START|mei|mei_voice_normal|よねざわともこ教授は，コミュニケーションメディア科学や擬人化システムの研究をされています。ヒューマンエージェントインタラクションなどの講義を担当しており、とても優しいお姉さんです。
 213	214	SYNTH_EVENT_STOP|mei	MODEL_DELETE|panel
 214	215	<eps>	MODEL_ADD|menu|Accessory\menu\menu.pmd|0.0,-4.5,0.0|0.0,0.0,0.0|ON|mei
 215	2	<eps>	MOTION_ADD|menu|rotate|Motion\menu_rotation\menu_rotation.vmd|FULL|LOOP|OFF
@@ -662,6 +666,11 @@
 1	500	KEY|N	MODEL_CHANGE|mei|Model\miku\miku.pmd
 500	501	<eps>	SYNTH_START|mei|mei_voice_normal|初音ミクと申します。よろしくお願いします。
 501	2	SYNTH_EVENT_STOP|mei	<eps>
+
+1	502	RECOG_EVENT_STOP|髪の毛	SYNTH_START|mei|mei_voice_angry|不毛ではない．まだ少し残っている．
+1	502	RECOG_EVENT_STOP|髪,毛	SYNTH_START|mei|mei_voice_angry|髪の毛が後退しているのではない。 私が前進しているのである。
+1	502	RECOG_EVENT_STOP|ハゲ	SYNTH_START|mei|mei_voice_angry|ハゲは、病気ではなく、男の主張である。
+502	2	SYNTH_EVENT_STOP|mei	<eps>
 
 # 0600-0799 場所案内
 1	600	RECOG_EVENT_STOP|全天候型ハードコート	MODEL_DELETE|menu
