@@ -211,20 +211,20 @@
 
 # 0071-0090 案内
 
-1	71	RECOG_EVENT_STOP|図書館	MODEL_DELETE|menu
-71	72	<eps>	MODEL_ADD|panel|Accessory\map\map_library.pmd|0.0,2.8,2.5|0.0,0.0,0.0|ON|mei
-72	73	<eps>	MOTION_ADD|mei|action|Motion\mei_panel\mei_panel_on.vmd|PART|ONCE
-73	74	<eps>	MOTION_CHANGE|mei|base|Motion\mei_guide\mei_guide_normal.vmd
-74	75	<eps>	SYNTH_START|mei|mei_voice_normal|図書館は、正面から見ると、右前の方向にあります。
-75	76	SYNTH_EVENT_STOP|mei	MOTION_ADD|mei|look|Motion\mei_look\mei_look_down.vmd|PART|ONCE
-76	77	<eps>	SYNTH_START|mei|mei_voice_normal|キャンパスマップでは、こちらになります。
-77	78	<eps>	MOTION_ADD|mei|action|Motion\mei_point\mei_point_center_buttom.vmd|PART|ONCE
-78	79	SYNTH_EVENT_STOP|mei	MOTION_CHANGE|mei|base|Motion\mei_guide\mei_guide_happy.vmd
-79	80	<eps>	SYNTH_START|mei|mei_voice_normal|お解りになりますか？
-80	81	SYNTH_EVENT_STOP|mei	MODEL_DELETE|panel
-81	82	<eps>	MODEL_ADD|menu|Accessory\menu\menu.pmd|0.0,-4.5,0.0|0.0,0.0,0.0|mei
-82	83	<eps>	MOTION_CHANGE|mei|base|Motion\mei_wait\mei_wait.vmd
-83	2	<eps>	MOTION_ADD|menu|rotate|Motion\menu_rotation\menu_rotation.vmd|FULL|LOOP|OFF
+#1	71	RECOG_EVENT_STOP|図書館	MODEL_DELETE|menu
+#71	72	<eps>	MODEL_ADD|panel|Accessory\map\map_library.pmd|0.0,2.8,2.5|0.0,0.0,0.0|ON|mei
+#72	73	<eps>	MOTION_ADD|mei|action|Motion\mei_panel\mei_panel_on.vmd|PART|ONCE
+#73	74	<eps>	MOTION_CHANGE|mei|base|Motion\mei_guide\mei_guide_normal.vmd
+#74	75	<eps>	SYNTH_START|mei|mei_voice_normal|図書館は、正面から見ると、右前の方向にあります。
+#75	76	SYNTH_EVENT_STOP|mei	MOTION_ADD|mei|look|Motion\mei_look\mei_look_down.vmd|PART|ONCE
+#76	77	<eps>	SYNTH_START|mei|mei_voice_normal|キャンパスマップでは、こちらになります。
+#77	78	<eps>	MOTION_ADD|mei|action|Motion\mei_point\mei_point_center_buttom.vmd|PART|ONCE
+#78	79	SYNTH_EVENT_STOP|mei	MOTION_CHANGE|mei|base|Motion\mei_guide\mei_guide_happy.vmd
+#79	80	<eps>	SYNTH_START|mei|mei_voice_normal|お解りになりますか？
+#80	81	SYNTH_EVENT_STOP|mei	MODEL_DELETE|panel
+#81	82	<eps>	MODEL_ADD|menu|Accessory\menu\menu.pmd|0.0,-4.5,0.0|0.0,0.0,0.0|mei
+#82	83	<eps>	MOTION_CHANGE|mei|base|Motion\mei_wait\mei_wait.vmd
+#83	2	<eps>	MOTION_ADD|menu|rotate|Motion\menu_rotation\menu_rotation.vmd|FULL|LOOP|OFF
 
 # 0091-0100 別れ
 
@@ -236,16 +236,15 @@
 
 # 0101-0110 ホームページ
 
-1	101	RECOG_EVENT_STOP|ホームページ	EXECUTE|http://www.mmdagent.jp/
-#1	101	RECOG_EVENT_STOP|ＭＭＤＡｇｅｎｔ	EXECUTE|http://www.mmdagent.jp/
+1	101	RECOG_EVENT_STOP|ホームページ	EXECUTE|http://www.kansai-u.ac.jp/
 101	102	<eps>	SYNTH_START|mei|mei_voice_normal|関西大学のホームページは、http://www.kansai-u.ac.jp/です。
 102	2	SYNTH_EVENT_STOP|mei	<eps>
 
 # 0111-0120 画面
 
-1	111	RECOG_EVENT_STOP|フルスクリーン	KEY_POST|MMDAgent|F|OFF
-111	112	<eps>	SYNTH_START|mei|mei_voice_normal|スクリーンの設定を、変更しました。
-112	2	SYNTH_EVENT_STOP|mei	<eps>
+#1	111	RECOG_EVENT_STOP|フルスクリーン	KEY_POST|MMDAgent|F|OFF
+#111	112	<eps>	SYNTH_START|mei|mei_voice_normal|スクリーンの設定を、変更しました。
+#112	2	SYNTH_EVENT_STOP|mei	<eps>
 
 # 0121-0122 みやも
 
@@ -255,38 +254,38 @@
 122	2	SYNTH_EVENT_STOP|mei	<eps>
 
 # 0131-0200 場所
-1	131	RECOG_EVENT_STOP|食堂	MODEL_DELETE|menu
-1	131	RECOG_EVENT_STOP|しょくど-	MODEL_DELETE|menu
-131	132	<eps>	MODEL_ADD|panel|Accessory\map\index-map.pmd|0.0,-3.0,2.5|0.0,0.0,0.0|ON|mei
-132	133	<eps>	MOTION_ADD|mei|action|Motion\mei_panel\mei_panel_on.vmd|PART|ONCE
-133	134	<eps>	MOTION_CHANGE|mei|base|Motion\mei_guide\mei_guide_normal.vmd
-134	135	<eps>	SYNTH_START|mei|mei_voice_normal|食堂は、ひたすら奥に突き進んでください。噴水の奥の建物の一階です。
-135	136	SYNTH_EVENT_STOP|mei	MOTION_ADD|mei|look|Motion\mei_look\mei_look_down.vmd|PART|ONCE
-136	137	<eps>	SYNTH_START|mei|mei_voice_normal|キャンパスマップでは、こちらになります。
-137	138	<eps>	MOTION_ADD|mei|action|Motion\mei_point\mei_point_center_buttom.vmd|PART|ONCE
-138	139	SYNTH_EVENT_STOP|mei	MOTION_CHANGE|mei|base|Motion\mei_guide\mei_guide_happy.vmd
-139	140	<eps>	SYNTH_START|mei|mei_voice_normal|お解りになりますか？
-140	141	SYNTH_EVENT_STOP|mei	MODEL_DELETE|panel
-141	142	<eps>	MODEL_ADD|menu|Accessory\menu\menu.pmd|0.0,-4.5,0.0|0.0,0.0,0.0|mei
-142	143	<eps>	MOTION_CHANGE|mei|base|Motion\mei_wait\mei_wait.vmd
-143	2	<eps>	MOTION_ADD|menu|rotate|Motion\menu_rotation\menu_rotation.vmd|FULL|LOOP|OFF
+#1	131	RECOG_EVENT_STOP|食堂	MODEL_DELETE|menu
+#1	131	RECOG_EVENT_STOP|しょくど-	MODEL_DELETE|menu
+#131	132	<eps>	MODEL_ADD|panel|Accessory\map\index-map.pmd|0.0,-3.0,2.5|0.0,0.0,0.0|ON|mei
+#132	133	<eps>	MOTION_ADD|mei|action|Motion\mei_panel\mei_panel_on.vmd|PART|ONCE
+#133	134	<eps>	MOTION_CHANGE|mei|base|Motion\mei_guide\mei_guide_normal.vmd
+#134	135	<eps>	SYNTH_START|mei|mei_voice_normal|食堂は、ひたすら奥に突き進んでください。噴水の奥の建物の一階です。
+#135	136	SYNTH_EVENT_STOP|mei	MOTION_ADD|mei|look|Motion\mei_look\mei_look_down.vmd|PART|ONCE
+#136	137	<eps>	SYNTH_START|mei|mei_voice_normal|キャンパスマップでは、こちらになります。
+#137	138	<eps>	MOTION_ADD|mei|action|Motion\mei_point\mei_point_center_buttom.vmd|PART|ONCE
+#138	139	SYNTH_EVENT_STOP|mei	MOTION_CHANGE|mei|base|Motion\mei_guide\mei_guide_happy.vmd
+#139	140	<eps>	SYNTH_START|mei|mei_voice_normal|お解りになりますか？
+#140	141	SYNTH_EVENT_STOP|mei	MODEL_DELETE|panel
+#141	142	<eps>	MODEL_ADD|menu|Accessory\menu\menu.pmd|0.0,-4.5,0.0|0.0,0.0,0.0|mei
+#142	143	<eps>	MOTION_CHANGE|mei|base|Motion\mei_wait\mei_wait.vmd
+#143	2	<eps>	MOTION_ADD|menu|rotate|Motion\menu_rotation\menu_rotation.vmd|FULL|LOOP|OFF
 
-1	151	RECOG_EVENT_STOP|あり	MODEL_DELETE|menu
-1	151	RECOG_EVENT_STOP|アイス	MODEL_DELETE|menu
-1	151	RECOG_EVENT_STOP|あい	MODEL_DELETE|menu
-1	151	RECOG_EVENT_STOP|アイスアリーナ	MODEL_DELETE|menu
-152	153	<eps>	MOTION_ADD|mei|action|Motion\mei_panel\mei_panel_on.vmd|PART|ONCE
-153	154	<eps>	MOTION_CHANGE|mei|base|Motion\mei_guide\mei_guide_normal.vmd
-154	155	<eps>	SYNTH_START|mei|mei_voice_normal|西の口のバス停で降りて右手に進んでください。
-155	156	SYNTH_EVENT_STOP|mei	MOTION_ADD|mei|look|Motion\mei_look\mei_look_down.vmd|PART|ONCE
-156	157	<eps>	SYNTH_START|mei|mei_voice_normal|キャンパスマップでは、こちらになります。
-157	158	<eps>	MOTION_ADD|mei|action|Motion\mei_point\mei_point_center_buttom.vmd|PART|ONCE
-158	159	SYNTH_EVENT_STOP|mei	MOTION_CHANGE|mei|base|Motion\mei_guide\mei_guide_happy.vmd
-159	160	<eps>	SYNTH_START|mei|mei_voice_normal|お解りになりますか？
-160	161	SYNTH_EVENT_STOP|mei	MODEL_DELETE|panel
-161	162	<eps>	MODEL_ADD|menu|Accessory\menu\menu.pmd|0.0,-4.5,0.0|0.0,0.0,0.0|mei
-162	163	<eps>	MOTION_CHANGE|mei|base|Motion\mei_wait\mei_wait.vmd
-163	2	<eps>	MOTION_ADD|menu|rotate|Motion\menu_rotation\menu_rotation.vmd|FULL|LOOP|OFF
+#1	151	RECOG_EVENT_STOP|あり	MODEL_DELETE|menu
+#1	151	RECOG_EVENT_STOP|アイス	MODEL_DELETE|menu
+#1	151	RECOG_EVENT_STOP|あい	MODEL_DELETE|menu
+#1	151	RECOG_EVENT_STOP|アイスアリーナ	MODEL_DELETE|menu
+#152	153	<eps>	MOTION_ADD|mei|action|Motion\mei_panel\mei_panel_on.vmd|PART|ONCE
+#153	154	<eps>	MOTION_CHANGE|mei|base|Motion\mei_guide\mei_guide_normal.vmd
+#154	155	<eps>	SYNTH_START|mei|mei_voice_normal|西の口のバス停で降りて右手に進んでください。
+#155	156	SYNTH_EVENT_STOP|mei	MOTION_ADD|mei|look|Motion\mei_look\mei_look_down.vmd|PART|ONCE
+#156	157	<eps>	SYNTH_START|mei|mei_voice_normal|キャンパスマップでは、こちらになります。
+#157	158	<eps>	MOTION_ADD|mei|action|Motion\mei_point\mei_point_center_buttom.vmd|PART|ONCE
+#158	159	SYNTH_EVENT_STOP|mei	MOTION_CHANGE|mei|base|Motion\mei_guide\mei_guide_happy.vmd
+#159	160	<eps>	SYNTH_START|mei|mei_voice_normal|お解りになりますか？
+#160	161	SYNTH_EVENT_STOP|mei	MODEL_DELETE|panel
+#161	162	<eps>	MODEL_ADD|menu|Accessory\menu\menu.pmd|0.0,-4.5,0.0|0.0,0.0,0.0|mei
+#162	163	<eps>	MOTION_CHANGE|mei|base|Motion\mei_wait\mei_wait.vmd
+#163	2	<eps>	MOTION_ADD|menu|rotate|Motion\menu_rotation\menu_rotation.vmd|FULL|LOOP|OFF
 
 # 0201-0300 教授
 
@@ -305,75 +304,75 @@
 
 # 0211-0230 宮本
 
-204 211 KEY|1 MODEL_DELETE|panel1
-204	211	RECOG_EVENT_STOP|古賀 MODEL_DELETE|panel1
-204	211	RECOG_EVENT_STOP|古賀、誰 MODEL_DELETE|panel1
-211 212 <eps> MODEL_DELETE|panel2
+204	211	KEY|1	MODEL_DELETE|panel1
+204	211	RECOG_EVENT_STOP|古賀	MODEL_DELETE|panel1
+204	211	RECOG_EVENT_STOP|古賀,誰	MODEL_DELETE|panel1
+211	212	<eps>	MODEL_DELETE|panel2
 212	213	<eps>	MODEL_ADD|panel3|Accessory\teacher\kogaga.pmd|4.0,6.0,-2.0|0.0,0.0,0.0|ON|mei
 213	214	MODEL_EVENT_ADD|panel3	MODEL_ADD|panel4|Accessory\teacher2\koga.pmd|-5.0,4.0,-4.0|0.0,0.0,0.0|ON|mei
 214	290	<eps>	SYNTH_START|mei|mei_voice_normal|古賀広志教授は、経営情報システム論の研究をされています。情報と職業などの講義を担当しており、とても優しいおっちゃんです。
 
-204 216 KEY|2 MODEL_DELETE|panel1
+204	216	KEY|2	MODEL_DELETE|panel1
 204	216	RECOG_EVENT_STOP|松下	MODEL_DELETE|panel1
 204	216	RECOG_EVENT_STOP|松下、誰	MODEL_DELETE|panel1
-216 217 <eps> MODEL_DELETE|panel2
-217 218	<eps>	MODEL_ADD|panel3|Accessory\teacher\matsushita.pmd|4.0,6.0,3.0|0.0,0.0,0.0|ON|mei
-218 219	MODEL_EVENT_ADD|panel3	MODEL_ADD|panel4|Accessory\teacher2\matsushita.pmd|-5.0,4.0,-3.0|0.0,0.0,0.0|ON|mei
+216	217	<eps>	MODEL_DELETE|panel2
+217	218	<eps>	MODEL_ADD|panel3|Accessory\teacher\matsushita.pmd|4.0,6.0,3.0|0.0,0.0,0.0|ON|mei
+218	219	MODEL_EVENT_ADD|panel3	MODEL_ADD|panel4|Accessory\teacher2\matsushita.pmd|-5.0,4.0,-3.0|0.0,0.0,0.0|ON|mei
 219	290	<eps>	SYNTH_START|mei|mei_voice_normal|松下光範教授は、インタラクティブシステムデザインの研究をされています。インタラクティブアート実習などの講義を担当しており、とても優しいおっちゃんです。
 
-204 221 KEY|3 MODEL_DELETE|panel1
+204	221	KEY|3	MODEL_DELETE|panel1
 204	221	RECOG_EVENT_STOP|米沢	MODEL_DELETE|panel1
 204	221	RECOG_EVENT_STOP|米沢、誰	MODEL_DELETE|panel1
-221 222 <eps> MODEL_DELETE|panel2
+221	222	<eps>	MODEL_DELETE|panel2
 222	223	<eps>	MODEL_ADD|panel3|Accessory\teacher\yonezawa.pmd|4.0,6.0,3.0|0.0,0.0,0.0|ON|mei
 223	224	MODEL_EVENT_ADD|panel3	MODEL_ADD|panel4|Accessory\teacher2\yonezawa.pmd|-5.0,4.0,-3.0|0.0,0.0,0.0|ON|mei
 224	290	<eps>	SYNTH_START|mei|mei_voice_normal|米澤朋子教授は、コミュニケーションメディア科学や擬人化システムの研究をされています。ヒューマンエージェントインタラクションなどの講義を担当しており、とても優しいお姉さんです。
 
 # 0226-0240 居林
 
-204 226 KEY|4 MODEL_DELETE|panel1
+204	226	KEY|4	MODEL_DELETE|panel1
 204	226	RECOG_EVENT_STOP|田中	MODEL_DELETE|panel1
 204	226	RECOG_EVENT_STOP|田中、誰	MODEL_DELETE|panel1
-226 227 <eps> MODEL_DELETE|panel2
+226	227	<eps>	MODEL_DELETE|panel2
 227	228	<eps>	MODEL_ADD|panel3|Accessory\teacher\tanaka.pmd|4.0,6.0,3.0|0.0,0.0,0.0|ON|mei
 228	229	MODEL_EVENT_ADD|panel3	MODEL_ADD|panel4|Accessory\teacher2\tanaka.pmd|-5.0,4.0,-3.0|0.0,0.0,0.0|ON|mei
 229	290	<eps>	SYNTH_START|mei|mei_voice_normal|田中しげのり教授。専門は知的情報処理です。関西大学の卒業生で、ベンチャー企業の運営もしておられます。
 
-204 231 KEY|5 MODEL_DELETE|panel1
+204	231	KEY|5	MODEL_DELETE|panel1
 204	231	RECOG_EVENT_STOP|岡田	MODEL_DELETE|panel1
 204	231	RECOG_EVENT_STOP|岡田、誰	MODEL_DELETE|panel1
-231 232 <eps> MODEL_DELETE|panel2
+231	232	<eps>	MODEL_DELETE|panel2
 232	233	<eps>	MODEL_ADD|panel3|Accessory\teacher\okada.pmd|4.0,6.0,3.0|0.0,0.0,0.0|ON|mei
 233	234	MODEL_EVENT_ADD|panel3	MODEL_ADD|panel4|Accessory\teacher2\okada.pmd|-5.0,4.0,-3.0|0.0,0.0,0.0|ON|mei
 234	290	<eps>	SYNTH_START|mei|mei_voice_normal|岡田ともゆき教授。専門はメディア論と文化社会学です。お茶目なおっちゃんです。
 
-204 236 KEY|6 MODEL_DELETE|panel1
+204	236	KEY|6	MODEL_DELETE|panel1
 204	236	RECOG_EVENT_STOP|浅野	MODEL_DELETE|panel1
 204	236	RECOG_EVENT_STOP|浅野、誰	MODEL_DELETE|panel1
-236 237 <eps> MODEL_DELETE|panel2
+236	237	<eps>	MODEL_DELETE|panel2
 237	238	<eps>	MODEL_ADD|panel3|Accessory\teacher\asano.pmd|4.0,6.0,3.0|0.0,0.0,0.0|ON|mei
 238	239	MODEL_EVENT_ADD|panel3	MODEL_ADD|panel4|Accessory\teacher2\asano.pmd|-5.0,4.0,-3.0|0.0,0.0,0.0|ON|mei
 239	290	<eps>	SYNTH_START|mei|mei_voice_normal|浅野あきら教授。専門は画像科学、感性科学、色彩学です。多趣味なかたです。
 
 # 0241-0255 岩崎
 
-204 241 KEY|7 MODEL_DELETE|panel1
+204	241	KEY|7	MODEL_DELETE|panel1
 204	241	RECOG_EVENT_STOP|堀	MODEL_DELETE|panel1
-241 242 <eps> MODEL_DELETE|panel2
+241	242	<eps>	MODEL_DELETE|panel2
 242	243	<eps>	MODEL_ADD|panel3|Accessory\teacher\hori.pmd|4.0,6.0,3.0|0.0,0.0,0.0|ON|mei
 243	244	MODEL_EVENT_ADD|panel3	MODEL_ADD|panel4|Accessory\teacher2\hori.pmd|-5.0,4.0,-3.0|0.0,0.0,0.0|ON|mei
 244	290	<eps>	SYNTH_START|mei|mei_voice_normal|堀まさひろ教授。大阪大学出身です。専門は知識情報学でユーザーにとって使いやすいとはなにかを研究しておられます。彼の受け持っているWeb情報システム論は、持ち込みありのテストのためぜひ受けてみてください。
 
-204 246 KEY|8 MODEL_DELETE|panel1
+204	246	KEY|8	MODEL_DELETE|panel1
 204	246	RECOG_EVENT_STOP|森尾	MODEL_DELETE|panel1
-246 247 <eps> MODEL_DELETE|panel2
+246	247	<eps>	MODEL_DELETE|panel2
 247	248	<eps>	MODEL_ADD|panel3|Accessory\teacher\morio.pmd|4.0,6.0,3.0|0.0,0.0,0.0|ON|mei
 248	249	MODEL_EVENT_ADD|panel3	MODEL_ADD|panel4|Accessory\teacher2\morio.pmd|-5.0,4.0,-3.0|0.0,0.0,0.0|ON|mei
 249	290	<eps>	SYNTH_START|mei|mei_voice_normal|森尾ひろあき教授。フロリダアトランティック大学出身です。専門は社会心理学で、社会の中での人間の心の動きを解き明かしていく、ということをされています。彼の受け持っている、インターネットと心理という授業での、人間は顔が全て、イケメンは全てにおいて得をする、というビデオには衝撃を受けました。気になるかたはぜひ関西大学へ。
 
-204 251 KEY|9 MODEL_DELETE|panel1
+204	251	KEY|9	MODEL_DELETE|panel1
 204	251	RECOG_EVENT_STOP|荻野	MODEL_DELETE|panel1
-251 252 <eps> MODEL_DELETE|panel2
+251	252	<eps>	MODEL_DELETE|panel2
 252	253	<eps>	MODEL_ADD|panel3|Accessory\teacher\ogino.pmd|4.0,6.0,3.0|0.0,0.0,0.0|ON|mei
 253	254	MODEL_EVENT_ADD|panel3	MODEL_ADD|panel4|Accessory\teacher2\ogino.pmd|-5.0,4.0,-3.0|0.0,0.0,0.0|ON|mei
 254	290	<eps>	SYNTH_START|mei|mei_voice_normal|荻野まさき教授。大阪大学出身です。認知ロボティックスを専門としており、人はどのように認知能力を成長の過程で身につけていくのかを研究しておられます。コンピューターの言語という必修授業を担当しているため、覚えておきましょう。
@@ -381,16 +380,16 @@
 
 # 0256-0270 鈴木雄
 
-204 255 KEY|0 MODEL_DELETE|panel1
+204	255	KEY|0	MODEL_DELETE|panel1
 204	255	RECOG_EVENT_STOP|加藤	MODEL_DELETE|panel1
-255 256 <eps> MODEL_DELETE|panel2
+255	256	<eps>	MODEL_DELETE|panel2
 256	257	<eps>	MODEL_ADD|panel3|Accessory\teacher\kato.pmd|4.0,6.0,3.0|0.0,0.0,0.0|ON|mei
 257	258	MODEL_EVENT_ADD|panel3	MODEL_ADD|panel4|Accessory\teacher2\kato.pmd|-5.0,4.0,-3.0|0.0,0.0,0.0|ON|mei
 258	290	<eps>	SYNTH_START|mei|mei_voice_normal|加藤隆教授。４月１日生まれ、マサチューセッツ大学心理学科を卒業され、専門領域は、認知社会心理学です。キーワードとして、ヒューマンインタフェース、認知心理学、認知と感情のかかわり、が、あげられます。そして、ダジャレ大好きです。
 
-204 1262  KEY|- MODEL_DELETE|panel1
-204	1262  RECOG_EVENT_STOP|桑門	MODEL_DELETE|panel1
-1262 1263  <eps> MODEL_DELETE|panel2
+204	1262	KEY|-	MODEL_DELETE|panel1
+204	1262	RECOG_EVENT_STOP|桑門	MODEL_DELETE|panel1
+1262	1263	<eps>	MODEL_DELETE|panel2
 1263	1264	<eps>	MODEL_ADD|panel3|Accessory\teacher\kuwakado.pmd|4.0,6.0,3.0|0.0,0.0,0.0|ON|mei
 1264	1265	MODEL_EVENT_ADD|panel3	MODEL_ADD|panel4|Accessory\teacher2\kuwakado.pmd|-5.0,4.0,-3.0|0.0,0.0,0.0|ON|mei
 1265	1266	<eps>	MOTION_ADD|mei|action|Motion\mei_panel\mei_panel_on.vmd|PART|ONCE
@@ -402,9 +401,9 @@
 1271	1272	SYNTH_EVENT_STOP|mei	MOTION_CHANGE|mei|base|Motion\mei_guide\mei_guide_happy.vmd
 1272	290	<eps>	SYNTH_START|mei|mei_voice_normal|そして、Ｃ言語と言ったらこの人です。
 
-204 2262 KEY|^ MODEL_DELETE|panel1
+204	2262	KEY|^	MODEL_DELETE|panel1
 204	2262	RECOG_EVENT_STOP|桑原	MODEL_DELETE|panel1
-2262 2263 <eps> MODEL_DELETE|panel2
+2262	2263	<eps>	MODEL_DELETE|panel2
 2263	2264	<eps>	MODEL_ADD|panel3|Accessory\teacher\kuwabara.pmd|4.0,6.0,3.0|0.0,0.0,0.0|ON|mei
 2264	2265	MODEL_EVENT_ADD|panel3	MODEL_ADD|panel4|Accessory\teacher2\kuwabara.pmd|-5.0,4.0,-3.0|0.0,0.0,0.0|ON|mei
 2265	2266	<eps>	MOTION_ADD|mei|action|Motion\mei_panel\mei_panel_on.vmd|PART|ONCE
@@ -418,37 +417,37 @@
 
 # 0281-0300 鈴木聖
 
-204 273 KEY|Y MODEL_DELETE|panel1
+204	273	KEY|Y	MODEL_DELETE|panel1
 204	273	RECOG_EVENT_STOP|林	MODEL_DELETE|panel1
-273 274 <eps> MODEL_DELETE|panel2
+273	274	<eps>	MODEL_DELETE|panel2
 274	275	<eps>	MODEL_ADD|panel3|Accessory\teacher\hayashi.pmd|4.0,6.0,3.0|0.0,0.0,0.0|ON|mei
 275	276	MODEL_EVENT_ADD|panel3	MODEL_ADD|panel4|Accessory\teacher2\hayashi.pmd|-5.0,4.0,-3.0|0.0,0.0,0.0|ON|mei
 276	290	<eps>	SYNTH_START|mei|mei_voice_normal|林たけふみ教授。視覚情報処理や、情報の可視化についての専門家です。　また、ＣＧについてのプロです。　授業は生徒思いで優しいです。
 
-204 277 KEY|Q MODEL_DELETE|panel1
+204	277	KEY|Q	MODEL_DELETE|panel1
 204	277	RECOG_EVENT_STOP|松本	MODEL_DELETE|panel1
-277 278 <eps> MODEL_DELETE|panel2
+277	278	<eps>	MODEL_DELETE|panel2
 278	279	<eps>	MODEL_ADD|panel3|Accessory\teacher\matsumoto.pmd|4.0,6.0,3.0|0.0,0.0,0.0|ON|mei
 279	280	MODEL_EVENT_ADD|panel3	MODEL_ADD|panel4|Accessory\teacher2\matsumoto.pmd|-5.0,4.0,-3.0|0.0,0.0,0.0|ON|mei
 280	290	<eps>	SYNTH_START|mei|mei_voice_normal|松本わたる教授。調査データの収集と解析の方法論についての専門家です。データや分析についてかなり詳しいです。東大出身です。
 
-204 281 KEY|T MODEL_DELETE|panel1
+204	281	KEY|T	MODEL_DELETE|panel1
 204	281	RECOG_EVENT_STOP|喜多	MODEL_DELETE|panel1
-281 282 <eps> MODEL_DELETE|panel2
+281	282	<eps>	MODEL_DELETE|panel2
 282	283	<eps>	MODEL_ADD|panel3|Accessory\teacher\kita.pmd|4.0,6.0,3.0|0.0,0.0,0.0|ON|mei
 283	284	MODEL_EVENT_ADD|panel3	MODEL_ADD|panel4|Accessory\teacher2\kita.pmd|-5.0,4.0,-3.0|0.0,0.0,0.0|ON|mei
 284	290	<eps>	SYNTH_START|mei|mei_voice_normal|喜多ちぐさ教授。インターネット史やコンピューティングの歴史についての専門家です。元ディレクターでテレビや制作の裏側を知る人であるため、テレビ業界について興味があるなら、喜多先生についていくべきです。
 
-204 285 KEY|P MODEL_DELETE|panel1
+204	285	KEY|P	MODEL_DELETE|panel1
 204	285	RECOG_EVENT_STOP|辻	MODEL_DELETE|panel1
-285 286 <eps> MODEL_DELETE|panel2
+285	286	<eps>	MODEL_DELETE|panel2
 286	287	<eps>	MODEL_ADD|panel3|Accessory\teacher\tsuji.pmd|4.0,6.0,3.0|0.0,0.0,0.0|ON|mei
 287	288	MODEL_EVENT_ADD|panel3	MODEL_ADD|panel4|Accessory\teacher2\tsuji.pmd|-5.0,4.0,-3.0|0.0,0.0,0.0|ON|mei
 288	290	<eps>	SYNTH_START|mei|mei_voice_normal|辻みちひろ教授。ソフトウェア開発と統計について、研究しておられます。けっこう、のんびりとしゃべるかたです。
 
 
 290	291	SYNTH_EVENT_STOP|mei	MODEL_DELETE|panel3
-291	292 <eps>	MODEL_DELETE|panel4
+291	292	<eps>	MODEL_DELETE|panel4
 
 292	293	<eps>	MOTION_ADD|mei|action|Motion\mei_panel\mei_panel_on.vmd|PART|ONCE
 293	294	<eps>	MOTION_CHANGE|mei|base|Motion\mei_guide\mei_guide_normal.vmd
@@ -460,11 +459,11 @@
 297	1203	RECOG_EVENT_STOP|はい	MODEL_DELETE|panel2
 297	1203	RECOG_EVENT_STOP|あります	MODEL_DELETE|panel2
 297	1203	RECOG_EVENT_STOP|ある	MODEL_DELETE|panel2
-1203  1204	MODEL_EVENT_DELETE|panel2	MODEL_DELETE|panel1
-1204  201 <eps> SYNTH_START|mei|mei_voice_normal|どの教授が気になりますか？
+1203	1204	MODEL_EVENT_DELETE|panel2	MODEL_DELETE|panel1
+1204	201	<eps>	SYNTH_START|mei|mei_voice_normal|どの教授が気になりますか？
 
 297	1205	KEY|2	MODEL_DELETE|panel1
-297 1205 RECOG_EVENT_STOP|いいえ	MODEL_DELETE|panel1
+297	1205	RECOG_EVENT_STOP|いいえ	MODEL_DELETE|panel1
 297	1205	RECOG_EVENT_STOP|ない	MODEL_DELETE|panel1
 297	1205	RECOG_EVENT_STOP|あり,ません	MODEL_DELETE|panel1
 1205	298	MODEL_EVENT_DELETE|panel1	MODEL_DELETE|panel2
@@ -1076,7 +1075,7 @@
 1	807	RECOG_EVENT_STOP|ＣｈｉｃｋｅｎＳｕｒｖｉｖｏｒ	<eps>
 1	809	RECOG_EVENT_STOP|波紋	<eps>
 1	811	RECOG_EVENT_STOP|Ｈａｎｓｙａ	<eps>
-1	813	RECOG_EVENT_STOP|野菜色		<eps>
+1	813	RECOG_EVENT_STOP|野菜色	<eps>	<eps>
 1	815	RECOG_EVENT_STOP|モールスモアイ	<eps>
 1	817	RECOG_EVENT_STOP|もじしゅーたー	<eps>
 1	819	RECOG_EVENT_STOP|よけろ！武蔵	<eps>
